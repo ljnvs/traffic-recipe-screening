@@ -1,0 +1,20 @@
+# Curated public files only. Add new files here after reviewing their contents.
+*
+!/.gitattributes
+!/.gitignore
+!/README.md
+!/requirements-model.txt
+!/configs/
+!/configs/recipes.json
+!/results/
+!/results/cross_city_scores.csv
+!/results/locked_recommendations.csv
+!/scripts/
+!/scripts/recompute_cross_city.py
+!/scripts/smoke_models.py
+!/src/
+!/src/component_constraints_v5.py
+!/src/component_predictor_v6.py
+!/src/component_predictor_v7b.py
+!/src/native_city_model_v37.py
+!/src/traffic_component_primitives_v5.py

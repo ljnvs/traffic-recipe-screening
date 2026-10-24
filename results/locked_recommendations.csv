@@ -1,0 +1,19 @@
+method,city,horizon_min,selected_id,source_baseline_id
+S00_fixed,Madrid,15,005,005
+S00_fixed,Madrid,60,005,005
+S00_fixed,Greater Geelong,15,005,005
+S00_fixed,Greater Geelong,60,005,005
+S00_fixed,Latrobe,15,005,005
+S00_fixed,Latrobe,60,005,005
+S02_nearest,Madrid,15,005,005
+S02_nearest,Madrid,60,005,005
+S02_nearest,Greater Geelong,15,009,005
+S02_nearest,Greater Geelong,60,005,005
+S02_nearest,Latrobe,15,009,005
+S02_nearest,Latrobe,60,005,005
+S09_primary,Madrid,15,005,005
+S09_primary,Madrid,60,005,005
+S09_primary,Greater Geelong,15,005,005
+S09_primary,Greater Geelong,60,005,005
+S09_primary,Latrobe,15,005,005
+S09_primary,Latrobe,60,005,005
