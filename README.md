@@ -20,7 +20,7 @@ python -m pip install -r requirements-model.txt
 python scripts/smoke_models.py
 ```
 
-Positive **gain** and negative **relative MAE change** both mean lower error. Costs describe RTX 4090 workflows with model-specific micro-batches. The scripts check saved-score arithmetic and model execution; full training pipelines and external baseline implementations are outside this package.
+All **MAE gains (%)** use `100 * (1 - method_MAE / reference_MAE)`: positive means lower error, negative means higher error, and zero means no change. Costs describe RTX 4090 workflows with model-specific micro-batches. The scripts check saved-score arithmetic and model execution; full training pipelines and external baseline implementations are outside this package.
 
 The reported region set was defined after the full results were available. The Victorian target regions share a provider and month with two source regions. The comparisons support task-dependent accuracy–cost trade-offs; source-based selection did not establish a consistent gain over fixed 005.
 

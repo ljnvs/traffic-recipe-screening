@@ -23,6 +23,11 @@ def rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(stream))
 
 
+def mae_gain(method_mae: float, reference_mae: float) -> float:
+    """Percentage MAE reduction; positive means the method is better."""
+    return 100 * (1 - method_mae / reference_mae)
+
+
 def main() -> None:
     scores = rows(SCORES)
     choices = rows(CHOICES)
@@ -45,12 +50,12 @@ def main() -> None:
     assert {(r["city"], int(r["horizon_min"]), r["model_id"]) for r in simple} == set(
         product(CITIES, HORIZONS, simple_ids))
 
-    print("Task-weighted mean relative MAE change (%) vs complete baseline; negative is better")
+    print("Task-weighted mean MAE gain (%) vs complete baseline; positive is better")
     expected = {
-        ("004", "GraphWaveNet"): -2.1822083385586493,
-        ("004", "STAEformer"): 0.5447736707502222,
-        ("005", "GraphWaveNet"): -1.2814927089251453,
-        ("005", "STAEformer"): 1.1838980064961642,
+        ("004", "GraphWaveNet"): 2.1822083385586493,
+        ("004", "STAEformer"): -0.5447736707502222,
+        ("005", "GraphWaveNet"): 1.2814927089251453,
+        ("005", "STAEformer"): -1.1838980064961642,
     }
     for (candidate, baseline), reference in expected.items():
         task_means = []
@@ -60,7 +65,7 @@ def main() -> None:
                 for seed in SEEDS:
                     a = float(by_score[city, horizon, seed, candidate]["test_mae"])
                     b = float(by_score[city, horizon, seed, baseline]["test_mae"])
-                    paired.append(100 * (a / b - 1))
+                    paired.append(mae_gain(a, b))
                 task_means.append(mean(paired))
         value = mean(task_means)
         assert abs(value - reference) < 1e-9, (candidate, baseline, value)
@@ -91,7 +96,7 @@ def main() -> None:
             selected_mae = float(by_score[key]["test_mae"])
             fixed_key = key[:3] + (row["source_baseline_id"],)
             fixed_mae = float(by_score[fixed_key]["test_mae"])
-            grouped[row["method"]].append(100 * (1 - selected_mae / fixed_mae))
+            grouped[row["method"]].append(mae_gain(selected_mae, fixed_mae))
     print("Mean gain over source-fixed 005 (%); positive is better")
     for method, expected_gain in (("S00_fixed", 0.0), ("S02_nearest", 0.7882703621546132), ("S09_primary", 0.0)):
         assert len(grouped[method]) == 18
