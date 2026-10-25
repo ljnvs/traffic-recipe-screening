@@ -3,6 +3,8 @@
 !/.gitattributes
 !/.gitignore
 !/README.md
+!/LICENSE
+!/CITATION.cff
 !/requirements-model.txt
 !/configs/
 !/configs/recipes.json

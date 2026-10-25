@@ -2,6 +2,10 @@
 
 Code and aggregate results accompanying **“Recipe screening for traffic forecasting at native sampling intervals: accuracy–cost trade-offs and cross-city evaluation.”**
 
+Author: [Jianing Long](https://orcid.org/0009-0000-0074-7786).
+
+Code license: [MIT](LICENSE). Citation metadata: [CITATION.cff](CITATION.cff).
+
 - `src/`: frozen recipe predictor and its dependencies.
 - `configs/recipes.json`: 27 design configurations with three-digit IDs; 17 pass the city-panel input constraints. `lookback` is in five-minute design units and is converted by `native_config` to native time steps.
 - `results/cross_city_scores.csv`: all 342 neural-fit scores and 36 seed-shared simple-method scores for Madrid, Greater Geelong and Latrobe at 15/60 minutes. Together these form the paper's 450 evaluation records.
