@@ -1,0 +1,225 @@
+{
+  "version": "traffic_component_design_v5",
+  "status": "source_audited_design_proposal_not_training_protocol",
+  "catalogue_sha256": "8d8ae7e5affbcd52749114b4261cbe8138320c864b460e28d704a64c4b7a2552",
+  "dimensions": {
+    "assembly": [
+      "node_mlp",
+      "graph_sandwich",
+      "dilated_graph_stack",
+      "graph_recurrent",
+      "axis_attention",
+      "heterogeneous_attention"
+    ],
+    "spatial_operator": [
+      "none",
+      "powers_graph_conv",
+      "chebyshev_graph_conv",
+      "dense_attention",
+      "geo_sem_attention"
+    ],
+    "graph_source": [
+      "none",
+      "provided_walk",
+      "provided_laplacian",
+      "adaptive_asymmetric",
+      "provided_plus_adaptive",
+      "adaptive_tied",
+      "geo_sem_masks"
+    ],
+    "normalization": [
+      "train_scale",
+      "instance_scale"
+    ],
+    "node_encoding": [
+      "none",
+      "node_identity",
+      "adaptive_slot",
+      "laplacian_position"
+    ],
+    "calendar": [
+      "none",
+      "relative_daily_slot",
+      "verified_day_week"
+    ],
+    "parameterization": [
+      "shared",
+      "node_pool"
+    ],
+    "delay_pattern": [
+      "off",
+      "on"
+    ],
+    "decoder": [
+      "direct",
+      "autoregressive"
+    ],
+    "lookback": [
+      12,
+      36
+    ],
+    "loss": [
+      "mse",
+      "mae",
+      "huber"
+    ]
+  },
+  "anchors": [
+    {
+      "model": "DCRNN",
+      "assembly": "graph_recurrent",
+      "spatial_operator": "chebyshev_graph_conv",
+      "graph_source": "provided_walk",
+      "parameterization": "shared",
+      "decoder": "autoregressive",
+      "node_encoding": "none",
+      "calendar": "none",
+      "normalization": "train_scale",
+      "delay_pattern": "off",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    },
+    {
+      "model": "STGCN",
+      "assembly": "graph_sandwich",
+      "spatial_operator": "chebyshev_graph_conv",
+      "graph_source": "provided_laplacian",
+      "parameterization": "shared",
+      "decoder": "direct",
+      "node_encoding": "none",
+      "calendar": "none",
+      "normalization": "train_scale",
+      "delay_pattern": "off",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    },
+    {
+      "model": "GraphWaveNet",
+      "assembly": "dilated_graph_stack",
+      "spatial_operator": "powers_graph_conv",
+      "graph_source": "provided_plus_adaptive",
+      "parameterization": "shared",
+      "decoder": "direct",
+      "node_encoding": "none",
+      "calendar": "none",
+      "normalization": "train_scale",
+      "delay_pattern": "off",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    },
+    {
+      "model": "AGCRN",
+      "assembly": "graph_recurrent",
+      "spatial_operator": "chebyshev_graph_conv",
+      "graph_source": "adaptive_tied",
+      "parameterization": "node_pool",
+      "decoder": "direct",
+      "node_encoding": "none",
+      "calendar": "none",
+      "normalization": "train_scale",
+      "delay_pattern": "off",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    },
+    {
+      "model": "STID",
+      "assembly": "node_mlp",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "parameterization": "shared",
+      "decoder": "direct",
+      "node_encoding": "node_identity",
+      "calendar": "verified_day_week",
+      "normalization": "train_scale",
+      "delay_pattern": "off",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    },
+    {
+      "model": "STAEformer",
+      "assembly": "axis_attention",
+      "spatial_operator": "dense_attention",
+      "graph_source": "none",
+      "parameterization": "shared",
+      "decoder": "direct",
+      "node_encoding": "adaptive_slot",
+      "calendar": "verified_day_week",
+      "normalization": "train_scale",
+      "delay_pattern": "off",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    },
+    {
+      "model": "PDFormer",
+      "assembly": "heterogeneous_attention",
+      "spatial_operator": "geo_sem_attention",
+      "graph_source": "geo_sem_masks",
+      "parameterization": "shared",
+      "decoder": "direct",
+      "node_encoding": "laplacian_position",
+      "calendar": "verified_day_week",
+      "delay_pattern": "on",
+      "normalization": "train_scale",
+      "lookback": 12,
+      "loss": "mae",
+      "fidelity": "mechanism anchor; widths, optimizer, head/basis adaptations and source preprocessing still require separate faithful-reproduction audit"
+    }
+  ],
+  "capability_profiles": {
+    "full_schema": {
+      "provided_graph": true,
+      "symmetric_graph": true,
+      "relative_daily_slot": true,
+      "verified_calendar": true,
+      "training_semantic_graph": true,
+      "training_pattern_prototypes": true,
+      "laplacian_positions": true
+    },
+    "current_pems_metadata": {
+      "provided_graph": true,
+      "symmetric_graph": true,
+      "relative_daily_slot": true,
+      "verified_calendar": false,
+      "training_semantic_graph": false,
+      "training_pattern_prototypes": false,
+      "laplacian_positions": false
+    }
+  },
+  "fixed_contracts": {
+    "forecast_horizons": [
+      3,
+      12
+    ],
+    "observed_features": "target channel only; calendar and node indices separate",
+    "minimum_nodes": 3,
+    "latent_width": 32,
+    "heads": 4,
+    "pd_heads": [
+      4,
+      2,
+      2
+    ],
+    "spatial_order": 2,
+    "node_embedding_dim": 8,
+    "graph_fit": "fixed topology from audit; statistical graph/pattern fit only declared training interval",
+    "status": "symbolic contract, not executable model factory"
+  },
+  "evaluation_controls": [
+    "Persistence",
+    "Ridge_recent",
+    "Ridge_day_week",
+    "source_type_h_fixed_recipe",
+    "same_budget_random_search"
+  ],
+  "pool_policy": "Enumerate legal designs, retain mechanism anchors, greedily cover every extendable two-factor choice pair; no forecasting scores used.",
+  "limits": "Family/parameter couplings restrict independent effects. Pair coverage does not certify all higher-order interactions or implementation feasibility.",
+  "old_protocols_changed": false,
+  "confirmation_used": false,
+  "new_training_runs": 0
+}

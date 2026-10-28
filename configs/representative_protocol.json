@@ -1,0 +1,36 @@
+{
+  "frequency_seconds": 900,
+  "slots_per_day": 96,
+  "information_prefix_days": [
+    0,
+    16
+  ],
+  "train_target_days": [
+    7,
+    16
+  ],
+  "validation_target_days": [
+    16,
+    23
+  ],
+  "test_target_days": [
+    23,
+    30
+  ],
+  "common_max_horizon_steps": 4,
+  "input_fill_cap_steps": 4,
+  "rounds": 180,
+  "eligible_round": 65,
+  "origins_per_round": 336,
+  "logical_batch": 16,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "eta_min": 1e-05,
+  "clip_norm": 1.0,
+  "forecast_seeds": [
+    20261006,
+    20261007,
+    20261008
+  ],
+  "precision": "FP32; no AMP or TF32"
+}

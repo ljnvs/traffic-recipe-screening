@@ -1,0 +1,13 @@
+{
+  "material": "Supplementary Material S1",
+  "version": "2026.10.29",
+  "archive": "Supplementary_S1_v2026.10.29.zip",
+  "scientific_results_unchanged": true,
+  "prior_package": "Supplementary_S1_20261028_r2.zip",
+  "scope": "Public executable workflows and aggregate results; S1 is an archive of the same repository version.",
+  "tag": "v2026.10.29",
+  "release_date": "2026-10-29",
+  "repository": "https://github.com/ljnvs/traffic-recipe-screening",
+  "repository_ref": "refs/tags/v2026.10.29",
+  "baseline_public_commit": "213fc0f556cede6a88e6ccfe71a142285daa2105"
+}

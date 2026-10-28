@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-28T22:19:21.595888+08:00",
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "syntax_checked_python_files": 16,
+  "candidate_generation_matches_original27": true,
+  "feasible_candidates": 17,
+  "source_rule_records_replayed": 12,
+  "target_choices_checked": 96,
+  "source_labels": 20,
+  "target_prefix_only_tasks": 8,
+  "full_precision_score_summaries_match": true,
+  "source_outer_rules": 14,
+  "time_intervals": 8,
+  "synthetic_panel_checks": [
+    {
+      "passed": true,
+      "new_predictor_fits": 0,
+      "new_selector_fits": 0,
+      "train_origins": 861,
+      "validation_origins": 669,
+      "test_origins": 669,
+      "horizon": 1
+    },
+    {
+      "passed": true,
+      "new_predictor_fits": 0,
+      "new_selector_fits": 0,
+      "train_origins": 861,
+      "validation_origins": 669,
+      "test_origins": 669,
+      "horizon": 4
+    }
+  ],
+  "private_paths_found": 0,
+  "new_predictor_fits": 4,
+  "new_selector_fits": 31,
+  "new_resource_measurements": 0,
+  "training_runtime_executed": true,
+  "learned_source_runtime_executed": true,
+  "missing_optional_dependencies": [],
+  "versions": {
+    "python": "3.12.4",
+    "numpy": "1.26.4",
+    "torch": "2.6.0+cu126",
+    "scikit-learn": "1.4.2",
+    "scipy": "1.13.1",
+    "joblib": "1.4.2"
+  },
+  "fits_scope": "Four synthetic reduced-schedule predictor fits; 30 locked source replay fits plus one outer-fold estimator check.",
+  "new_scientific_experiments": 0,
+  "published_protocol_executed": false,
+  "full_nested_calibration_executed": false,
+  "minimal_runtime_record": "docs/RUNTIME_VERIFICATION.json",
+  "prior_no_fit_checks_recorded_at": "2026-10-28T16:43:49.551052+08:00",
+  "publication_validation": {
+    "checked_at": "2026-10-29T00:40:24.729643+08:00",
+    "version": "2026.10.29",
+    "syntax_checked_python_files": 18,
+    "all_executable_code_identical_to_runtime_checked_s1": true,
+    "candidate_generation_and_screening_passed": true,
+    "source_replay_records": 12,
+    "target_choices_matched": 96,
+    "full_precision_and_interval_recomputation_passed": true,
+    "legacy_score_recomputation_passed": true,
+    "original_public_scientific_files_preserved": true,
+    "new_predictor_fits": 0,
+    "new_estimator_fits": 0,
+    "new_scientific_experiments": 0,
+    "private_paths_found": 0
+  }
+}

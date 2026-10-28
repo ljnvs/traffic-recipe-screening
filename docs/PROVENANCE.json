@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "output": "src/component_constraints_v5.py",
+      "origin": "public commit 213fc0f:src/component_constraints_v5.py",
+      "mode": "byte-identical",
+      "sha256": "8385db15ca5383da114f28f483d3dc0be7160bd958012b4a7912ab9d7a79b4bb"
+    },
+    {
+      "output": "src/component_predictor_v6.py",
+      "origin": "public commit 213fc0f:src/component_predictor_v6.py",
+      "mode": "byte-identical",
+      "sha256": "8369612cae4e44c7420b2fa407700774a36bf113701dd7daea04db8e5fe8dcf9"
+    },
+    {
+      "output": "src/component_predictor_v7b.py",
+      "origin": "public commit 213fc0f:src/component_predictor_v7b.py",
+      "mode": "byte-identical",
+      "sha256": "f367b47b097e96370abe3b634b6523f4088234abdadfd942e01103866750e1bd"
+    },
+    {
+      "output": "src/native_city_model_v37.py",
+      "origin": "public commit 213fc0f:src/native_city_model_v37.py",
+      "mode": "byte-identical",
+      "sha256": "37eaae0e26119540ec5efa910745df29c9a7d726dc7298e0ff7b3df71423d6e2"
+    },
+    {
+      "output": "src/traffic_component_primitives_v5.py",
+      "origin": "public commit 213fc0f:src/traffic_component_primitives_v5.py",
+      "mode": "byte-identical",
+      "sha256": "206e94d7608d61e24fd5192ac9be2767cb9feadef48e64c55d8408f9fc1f40c0"
+    },
+    {
+      "output": "LICENSE",
+      "origin": "public commit 213fc0f:LICENSE",
+      "mode": "byte-identical",
+      "sha256": "94f2a53ed0b6c97af864843d93fd5b3222285d524300e80b00cb1cb961965764"
+    },
+    {
+      "output": "configs/recipes.json",
+      "origin": "public commit 213fc0f:configs/recipes.json",
+      "mode": "byte-identical",
+      "sha256": "eb0eae22ea5792e6d1bd4e774f20c21bad448b723fe68d8cbbbc9f5eaaa3c28a"
+    },
+    {
+      "output": "src/l1_stable_execution_v92.py",
+      "origin": "l1_stable_execution_v92.py",
+      "mode": "byte-identical",
+      "sha256": "9edc6faf376ec00973a0f8ebfc70447ec9615fb33a79ecec7f73bd22ac0024e7"
+    },
+    {
+      "output": "src/generate_candidates.py",
+      "origin": "generate_component_pool_v5.py",
+      "mode": "original functions; portable paths and CLI",
+      "original_sha256": "fe8a326ae9ededfdcb98ca1d7756a2086f254a4b0384ce7de313853558a34595"
+    },
+    {
+      "output": "src/source_rules.py",
+      "origin": "l1_selector_v85.py + FlowCalibrationEngine from l1_calibrate_v94.py + v87 grids",
+      "mode": "remove private data loaders; lazy sklearn imports; display S09; original decision and calibration functions",
+      "original_sha256": "b2192f8fd43e322782fa03d5fdbefc6c000fc017a4795ac5231720ff1f73e07e"
+    }
+  ],
+  "portable_orchestration": "representative_panel.py, representative_task.py, simple_candidates.py and CLIs were assembled for this package; they do not replace the original frozen scientific run.",
+  "original_training_policy": "l1_runtime_v94.py and l1_train_v94.py; no original scientific admission or resume files modified",
+  "data_exports": "Frozen aggregate scores, source task descriptors/labels and locked configurations; local paths and internal bookkeeping removed.",
+  "source_label_boundary": "20 source tasks carry labels. Eight target tasks have prefix features only. Target scores are in a separate file.",
+  "execution_in_this_revision": {
+    "new_predictor_fits": 4,
+    "new_selector_fits": 31,
+    "new_resource_measurements": 0,
+    "new_scientific_experiments": 0,
+    "scope": "Synthetic reduced-schedule predictor checks and replay of locked source estimators only."
+  },
+  "package_version": "2026.10.29",
+  "runtime_check_adapter": "scripts/runtime_smoke.py calls the existing training loop with an explicit runtime_smoke option; normal train keeps the unchanged 180-round policy. It also calls the existing source replay and checks one estimator trained without a held-out region.",
+  "baseline_public_commit": "213fc0f556cede6a88e6ccfe71a142285daa2105",
+  "runtime_verification_inherited_from": "2026-10-28-r2; executable Python files unchanged",
+  "publication_update": {
+    "date": "2026-10-29",
+    "new_predictor_fits": 0,
+    "new_estimator_fits": 0,
+    "new_scientific_experiments": 0,
+    "scientific_implementation_configs_and_exports_changed": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-10-28T22:19:21.595888+08:00",
+  "scope": "Minimal executable-path verification; not a rerun of scientific experiments.",
+  "predictor": {
+    "passed": true,
+    "verification_only": true,
+    "synthetic_predictor_data": true,
+    "training_runtime_executed": true,
+    "predictor_fits": 4,
+    "scientific_experiments_rerun": false,
+    "published_protocol_executed": false,
+    "published_results_unchanged": true,
+    "versions": {
+      "python": "3.12.4",
+      "numpy": "1.26.4",
+      "torch": "2.6.0+cu126",
+      "scikit-learn": "1.4.2",
+      "scipy": "1.13.1",
+      "joblib": "1.4.2"
+    },
+    "checks": [
+      {
+        "horizon_minutes": 15,
+        "rate_factor": 1.0,
+        "candidates": [
+          "004",
+          "005"
+        ],
+        "rounds": 2,
+        "train_origins": 6,
+        "validation_origins": 4,
+        "test_origins": 4,
+        "updates_per_candidate": 6,
+        "finite_gradients_and_checkpoints": true,
+        "parameters_changed_by_optimisation": {
+          "004": 16,
+          "005": 72
+        },
+        "validation_only_selection_verified": true,
+        "checkpoint_reload_matches_predictions_exactly": true,
+        "native_unit_test_rescoring_matches": true
+      },
+      {
+        "horizon_minutes": 60,
+        "rate_factor": 4.0,
+        "candidates": [
+          "004",
+          "005"
+        ],
+        "rounds": 2,
+        "train_origins": 6,
+        "validation_origins": 4,
+        "test_origins": 4,
+        "updates_per_candidate": 6,
+        "finite_gradients_and_checkpoints": true,
+        "parameters_changed_by_optimisation": {
+          "004": 16,
+          "005": 72
+        },
+        "validation_only_selection_verified": true,
+        "checkpoint_reload_matches_predictions_exactly": true,
+        "native_unit_test_rescoring_matches": true
+      }
+    ]
+  },
+  "source": {
+    "passed": true,
+    "verification_only": true,
+    "learned_source_runtime_executed": true,
+    "versions": {
+      "python": "3.12.4",
+      "numpy": "1.26.4",
+      "torch": "2.6.0+cu126",
+      "scikit-learn": "1.4.2",
+      "scipy": "1.13.1",
+      "joblib": "1.4.2"
+    },
+    "methods": [
+      "S07_FFORMS",
+      "S09"
+    ],
+    "pool": "full23",
+    "meta_seeds": [
+      20261010,
+      20261011,
+      20261012
+    ],
+    "locked_rule_records": 6,
+    "target_choices_checked": 48,
+    "all_locked_choices_match": true,
+    "learned_estimator_fits": 31,
+    "locked_replay_estimator_fits": 30,
+    "outer_fold_estimator_checks": 1,
+    "all_outer_preprocessing_task_counts": {
+      "Ballarat": 18,
+      "Greater Bendigo": 18,
+      "bremen": 18,
+      "essen": 16,
+      "hamburg": 18,
+      "luzern": 18,
+      "melbourne": 18,
+      "torino": 16
+    },
+    "held_region_used_for_fitting": false,
+    "target_validation_or_test_labels_read": false,
+    "full_nested_calibration_executed": false,
+    "source_scores_and_locked_configs_unchanged": true,
+    "scientific_experiments_rerun": false
+  },
+  "resource_measurements_executed": false,
+  "original_scientific_results_and_protocol_unchanged": true
+}

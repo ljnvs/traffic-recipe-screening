@@ -1,0 +1,2297 @@
+[
+  {
+    "pool": "full23",
+    "method": "S09",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S09_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S09",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S09_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S09",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S09_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S08_ID",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S08_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S08_ID",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S08_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S08_ID",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S08_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_description",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_description_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_description",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_description_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_description",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_description_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_ID",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_ID",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_ID",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_H",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "no_H",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_H_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_H",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "no_H",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_H_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_H",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "no_H",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_H_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_u",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_u_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_u",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_u_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_u",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_u_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_gate",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "best",
+      "config_id": "A_no_gate_01"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_gate",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "best",
+      "config_id": "A_no_gate_01"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_gate",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "best",
+      "config_id": "A_no_gate_01"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S04_direct",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 160,
+        "depth": 1
+      },
+      "rule": "best",
+      "config_id": "S04_direct_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S04_direct",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 160,
+        "depth": 1
+      },
+      "rule": "best",
+      "config_id": "S04_direct_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S04_direct",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 160,
+        "depth": 1
+      },
+      "rule": "best",
+      "config_id": "S04_direct_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S05_matched",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S05_matched_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S05_matched",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.0,
+      "config_id": "S05_matched_18"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S05_matched",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S05_matched_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S03_oldGB",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "old",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "best",
+      "config_id": "S03_oldGB_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S03_oldGB",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "old",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "best",
+      "config_id": "S03_oldGB_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S03_oldGB",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "old",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "best",
+      "config_id": "S03_oldGB_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "rf",
+        "features": "full",
+        "trees": 1000,
+        "max_features": "one_third",
+        "leaf": 1,
+        "prior": "none"
+      },
+      "rule": "probability",
+      "config_id": "S07_FFORMS_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "rf",
+        "features": "full",
+        "trees": 1000,
+        "max_features": "one_third",
+        "leaf": 1,
+        "prior": "none"
+      },
+      "rule": "probability",
+      "config_id": "S07_FFORMS_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "rf",
+        "features": "full",
+        "trees": 1000,
+        "max_features": "one_third",
+        "leaf": 1,
+        "prior": "none"
+      },
+      "rule": "probability",
+      "config_id": "S07_FFORMS_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S02_nearest",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "nearest",
+      "k": 1,
+      "norm": 2,
+      "physical_weight": 0.5,
+      "config_id": "S02_nearest_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S02_nearest",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "nearest",
+      "k": 1,
+      "norm": 2,
+      "physical_weight": 0.5,
+      "config_id": "S02_nearest_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S02_nearest",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "nearest",
+      "k": 1,
+      "norm": 2,
+      "physical_weight": 0.5,
+      "config_id": "S02_nearest_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S00_fixed",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "fixed",
+      "config_id": "S00_fixed_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S00_fixed",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "fixed",
+      "config_id": "S00_fixed_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S00_fixed",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "fixed",
+      "config_id": "S00_fixed_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S01_majority",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "majority",
+      "config_id": "S01_majority_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S01_majority",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "majority",
+      "config_id": "S01_majority_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "full23",
+    "method": "S01_majority",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "majority",
+      "config_id": "S01_majority_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S09",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S09_11"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S09",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S09_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S09",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S09_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S08_ID",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.0,
+      "config_id": "S08_ID_06"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_009",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S08_ID",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.0,
+      "config_id": "S08_ID_06"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S08_ID",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "S08_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_description",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_description_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_description",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_description_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_description",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_description_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_ID",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_ID",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "generic",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_generic_ID_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_ID",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "ID",
+        "features": "generic",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.0020020026706730775,
+      "config_id": "A_generic_ID_07"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_H",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "no_H",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.0020020026706730775,
+      "config_id": "A_no_H_10"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_H",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "no_H",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.0020020026706730775,
+      "config_id": "A_no_H_10"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_H",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "no_H",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 1.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_H_11"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_u",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "pair",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.0,
+      "tau": 0.005012541823544282,
+      "config_id": "A_no_u_05"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_u",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "fixed",
+      "config_id": "no_feasible_config_source_fallback"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_u",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "fixed",
+      "config_id": "no_feasible_config_source_fallback"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_gate",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "fixed",
+      "config_id": "no_feasible_config_source_fallback"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_gate",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "fixed",
+      "config_id": "no_feasible_config_source_fallback"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_gate",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "fixed",
+      "config_id": "no_feasible_config_source_fallback"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S04_direct",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 1
+      },
+      "rule": "best",
+      "config_id": "S04_direct_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S04_direct",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 1
+      },
+      "rule": "best",
+      "config_id": "S04_direct_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S04_direct",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 1
+      },
+      "rule": "best",
+      "config_id": "S04_direct_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S05_matched",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.005012541823544282,
+      "config_id": "S05_matched_20"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S05_matched",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.0020020026706730775,
+      "config_id": "S05_matched_19"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_009",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S05_matched",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "direct",
+        "representation": "ID",
+        "features": "full",
+        "trees": 80,
+        "depth": 3
+      },
+      "rule": "gate",
+      "lam": 0.5,
+      "tau": 0.005012541823544282,
+      "config_id": "S05_matched_20"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S03_oldGB",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "old",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "best",
+      "config_id": "S03_oldGB_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S03_oldGB",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "old",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "best",
+      "config_id": "S03_oldGB_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S03_oldGB",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "old",
+        "representation": "description",
+        "features": "full",
+        "trees": 80,
+        "depth": 2
+      },
+      "rule": "best",
+      "config_id": "S03_oldGB_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261010,
+    "config": {
+      "estimator": {
+        "kind": "rf",
+        "features": "full",
+        "trees": 1000,
+        "max_features": "one_third",
+        "leaf": 1,
+        "prior": "none"
+      },
+      "rule": "probability",
+      "config_id": "S07_FFORMS_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261011,
+    "config": {
+      "estimator": {
+        "kind": "rf",
+        "features": "full",
+        "trees": 1000,
+        "max_features": "one_third",
+        "leaf": 1,
+        "prior": "none"
+      },
+      "rule": "probability",
+      "config_id": "S07_FFORMS_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261012,
+    "config": {
+      "estimator": {
+        "kind": "rf",
+        "features": "full",
+        "trees": 1000,
+        "max_features": "one_third",
+        "leaf": 1,
+        "prior": "none"
+      },
+      "rule": "probability",
+      "config_id": "S07_FFORMS_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S02_nearest",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "nearest",
+      "k": 1,
+      "norm": 2,
+      "physical_weight": 0.5,
+      "config_id": "S02_nearest_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S02_nearest",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "nearest",
+      "k": 1,
+      "norm": 2,
+      "physical_weight": 0.5,
+      "config_id": "S02_nearest_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S02_nearest",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "nearest",
+      "k": 1,
+      "norm": 2,
+      "physical_weight": 0.5,
+      "config_id": "S02_nearest_03"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_009",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_009",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_009",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S00_fixed",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "fixed",
+      "config_id": "S00_fixed_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S00_fixed",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "fixed",
+      "config_id": "S00_fixed_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S00_fixed",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "fixed",
+      "config_id": "S00_fixed_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S01_majority",
+    "meta_seed": 20261010,
+    "config": {
+      "rule": "majority",
+      "config_id": "S01_majority_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S01_majority",
+    "meta_seed": 20261011,
+    "config": {
+      "rule": "majority",
+      "config_id": "S01_majority_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  },
+  {
+    "pool": "neural17",
+    "method": "S01_majority",
+    "meta_seed": 20261012,
+    "config": {
+      "rule": "majority",
+      "config_id": "S01_majority_00"
+    },
+    "source_baseline": "components_v5_current_pems_metadata_005",
+    "recommendations": {
+      "T01:flow:15": "components_v5_current_pems_metadata_005",
+      "T01:flow:60": "components_v5_current_pems_metadata_005",
+      "T02:flow:15": "components_v5_current_pems_metadata_005",
+      "T02:flow:60": "components_v5_current_pems_metadata_005",
+      "T03:flow:15": "components_v5_current_pems_metadata_005",
+      "T03:flow:60": "components_v5_current_pems_metadata_005",
+      "T04:flow:15": "components_v5_current_pems_metadata_005",
+      "T04:flow:60": "components_v5_current_pems_metadata_005"
+    },
+    "forecast_seed_invariant": true
+  }
+]

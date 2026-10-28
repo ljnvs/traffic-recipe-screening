@@ -1,11 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this code or its aggregate results, please cite this repository."
+message: "If you use this code or its aggregate results, please cite this version."
 type: software
-title: "Traffic recipe screening: core recipe models and aggregate cross-city results"
+title: "Traffic recipe screening: executable workflows and aggregate results"
 authors:
   - family-names: Long
     given-names: Jianing
     orcid: "https://orcid.org/0009-0000-0074-7786"
-date-released: "2026-10-25"
+version: "2026.10.29"
+date-released: "2026-10-29"
 license: MIT
-url: "https://github.com/ljnvs/traffic-recipe-screening"
+repository-code: "https://github.com/ljnvs/traffic-recipe-screening"
+url: "https://github.com/ljnvs/traffic-recipe-screening/tree/v2026.10.29"

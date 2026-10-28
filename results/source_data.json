@@ -1,0 +1,5577 @@
+{
+  "tasks": {
+    "utd19:bremen:flow:15min": {
+      "task_id": "utd19:bremen:flow:15min",
+      "group_id": "utd19_city_bremen",
+      "variable": "flow",
+      "horizon_steps": 5,
+      "horizon_minutes": 15,
+      "frequency_seconds": 180,
+      "train_target_days": [
+        7,
+        11
+      ],
+      "feature_history_days": [
+        0,
+        11
+      ],
+      "early_target_days": [
+        11,
+        12
+      ],
+      "score_target_days": [
+        12,
+        14
+      ],
+      "units": "vehicles/hour/lane",
+      "city": "bremen"
+    },
+    "utd19:bremen:flow:60min": {
+      "task_id": "utd19:bremen:flow:60min",
+      "group_id": "utd19_city_bremen",
+      "variable": "flow",
+      "horizon_steps": 20,
+      "horizon_minutes": 60,
+      "frequency_seconds": 180,
+      "train_target_days": [
+        7,
+        11
+      ],
+      "feature_history_days": [
+        0,
+        11
+      ],
+      "early_target_days": [
+        11,
+        12
+      ],
+      "score_target_days": [
+        12,
+        14
+      ],
+      "units": "vehicles/hour/lane",
+      "city": "bremen"
+    },
+    "utd19:essen:flow:15min": {
+      "task_id": "utd19:essen:flow:15min",
+      "group_id": "utd19_city_essen",
+      "variable": "flow",
+      "horizon_steps": 3,
+      "horizon_minutes": 15,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        21
+      ],
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "early_target_days": [
+        21,
+        25
+      ],
+      "score_target_days": [
+        25,
+        30
+      ],
+      "units": "vehicles/hour/lane, source native rate",
+      "city": "essen"
+    },
+    "utd19:essen:flow:60min": {
+      "task_id": "utd19:essen:flow:60min",
+      "group_id": "utd19_city_essen",
+      "variable": "flow",
+      "horizon_steps": 12,
+      "horizon_minutes": 60,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        21
+      ],
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "early_target_days": [
+        21,
+        25
+      ],
+      "score_target_days": [
+        25,
+        30
+      ],
+      "units": "vehicles/hour/lane, source native rate",
+      "city": "essen"
+    },
+    "utd19:essen:speed:15min": {
+      "task_id": "utd19:essen:speed:15min",
+      "group_id": "utd19_city_essen",
+      "variable": "speed",
+      "horizon_steps": 3,
+      "horizon_minutes": 15,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        21
+      ],
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "early_target_days": [
+        21,
+        25
+      ],
+      "score_target_days": [
+        25,
+        30
+      ],
+      "units": "km/hour",
+      "city": "essen"
+    },
+    "utd19:essen:speed:60min": {
+      "task_id": "utd19:essen:speed:60min",
+      "group_id": "utd19_city_essen",
+      "variable": "speed",
+      "horizon_steps": 12,
+      "horizon_minutes": 60,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        21
+      ],
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "early_target_days": [
+        21,
+        25
+      ],
+      "score_target_days": [
+        25,
+        30
+      ],
+      "units": "km/hour",
+      "city": "essen"
+    },
+    "utd19:melbourne:flow:15min": {
+      "task_id": "utd19:melbourne:flow:15min",
+      "group_id": "utd19_city_melbourne",
+      "variable": "flow",
+      "horizon_steps": 1,
+      "horizon_minutes": 15,
+      "frequency_seconds": 900,
+      "train_target_days": [
+        7,
+        12
+      ],
+      "feature_history_days": [
+        0,
+        12
+      ],
+      "early_target_days": [
+        12,
+        13
+      ],
+      "score_target_days": [
+        13,
+        15
+      ],
+      "units": "vehicles/hour/lane",
+      "city": "melbourne"
+    },
+    "utd19:melbourne:flow:60min": {
+      "task_id": "utd19:melbourne:flow:60min",
+      "group_id": "utd19_city_melbourne",
+      "variable": "flow",
+      "horizon_steps": 4,
+      "horizon_minutes": 60,
+      "frequency_seconds": 900,
+      "train_target_days": [
+        7,
+        12
+      ],
+      "feature_history_days": [
+        0,
+        12
+      ],
+      "early_target_days": [
+        12,
+        13
+      ],
+      "score_target_days": [
+        13,
+        15
+      ],
+      "units": "vehicles/hour/lane",
+      "city": "melbourne"
+    },
+    "utd19:torino:flow:15min": {
+      "task_id": "utd19:torino:flow:15min",
+      "group_id": "utd19_city_torino",
+      "variable": "flow",
+      "horizon_steps": 3,
+      "horizon_minutes": 15,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        15
+      ],
+      "feature_history_days": [
+        0,
+        15
+      ],
+      "early_target_days": [
+        15,
+        18
+      ],
+      "score_target_days": [
+        18,
+        21
+      ],
+      "units": "vehicles/hour/lane",
+      "city": "torino"
+    },
+    "utd19:torino:flow:60min": {
+      "task_id": "utd19:torino:flow:60min",
+      "group_id": "utd19_city_torino",
+      "variable": "flow",
+      "horizon_steps": 12,
+      "horizon_minutes": 60,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        15
+      ],
+      "feature_history_days": [
+        0,
+        15
+      ],
+      "early_target_days": [
+        15,
+        18
+      ],
+      "score_target_days": [
+        18,
+        21
+      ],
+      "units": "vehicles/hour/lane",
+      "city": "torino"
+    },
+    "utd19:torino:speed:15min": {
+      "task_id": "utd19:torino:speed:15min",
+      "group_id": "utd19_city_torino",
+      "variable": "speed",
+      "horizon_steps": 3,
+      "horizon_minutes": 15,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        15
+      ],
+      "feature_history_days": [
+        0,
+        15
+      ],
+      "early_target_days": [
+        15,
+        18
+      ],
+      "score_target_days": [
+        18,
+        21
+      ],
+      "units": "km/hour",
+      "city": "torino"
+    },
+    "utd19:torino:speed:60min": {
+      "task_id": "utd19:torino:speed:60min",
+      "group_id": "utd19_city_torino",
+      "variable": "speed",
+      "horizon_steps": 12,
+      "horizon_minutes": 60,
+      "frequency_seconds": 300,
+      "train_target_days": [
+        7,
+        15
+      ],
+      "feature_history_days": [
+        0,
+        15
+      ],
+      "early_target_days": [
+        15,
+        18
+      ],
+      "score_target_days": [
+        18,
+        21
+      ],
+      "units": "km/hour",
+      "city": "torino"
+    },
+    "utd19v53:hamburg:flow:15min": {
+      "task_id": "utd19v53:hamburg:flow:15min",
+      "group_id": "utd19_city_hamburg",
+      "city": "hamburg",
+      "variable": "flow",
+      "frequency_seconds": 180,
+      "horizon_minutes": 15,
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "train_target_days": [
+        7,
+        21
+      ],
+      "early_target_days": [
+        21,
+        28
+      ],
+      "score_target_days": [
+        28,
+        35
+      ],
+      "horizon_steps": 5
+    },
+    "utd19v53:hamburg:flow:60min": {
+      "task_id": "utd19v53:hamburg:flow:60min",
+      "group_id": "utd19_city_hamburg",
+      "city": "hamburg",
+      "variable": "flow",
+      "frequency_seconds": 180,
+      "horizon_minutes": 60,
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "train_target_days": [
+        7,
+        21
+      ],
+      "early_target_days": [
+        21,
+        28
+      ],
+      "score_target_days": [
+        28,
+        35
+      ],
+      "horizon_steps": 20
+    },
+    "utd19v53:luzern:flow:15min": {
+      "task_id": "utd19v53:luzern:flow:15min",
+      "group_id": "utd19_city_luzern",
+      "city": "luzern",
+      "variable": "flow",
+      "frequency_seconds": 180,
+      "horizon_minutes": 15,
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "train_target_days": [
+        7,
+        21
+      ],
+      "early_target_days": [
+        21,
+        28
+      ],
+      "score_target_days": [
+        28,
+        35
+      ],
+      "horizon_steps": 5
+    },
+    "utd19v53:luzern:flow:60min": {
+      "task_id": "utd19v53:luzern:flow:60min",
+      "group_id": "utd19_city_luzern",
+      "city": "luzern",
+      "variable": "flow",
+      "frequency_seconds": 180,
+      "horizon_minutes": 60,
+      "feature_history_days": [
+        0,
+        21
+      ],
+      "train_target_days": [
+        7,
+        21
+      ],
+      "early_target_days": [
+        21,
+        28
+      ],
+      "score_target_days": [
+        28,
+        35
+      ],
+      "horizon_steps": 20
+    },
+    "D01:flow:15": {
+      "city": "Ballarat",
+      "group_id": "D01",
+      "stage": "B",
+      "variable": "flow",
+      "horizon_minutes": 15,
+      "horizon_steps": 1,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "D01:flow:60": {
+      "city": "Ballarat",
+      "group_id": "D01",
+      "stage": "B",
+      "variable": "flow",
+      "horizon_minutes": 60,
+      "horizon_steps": 4,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "D02:flow:15": {
+      "city": "Greater Bendigo",
+      "group_id": "D02",
+      "stage": "B",
+      "variable": "flow",
+      "horizon_minutes": 15,
+      "horizon_steps": 1,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "D02:flow:60": {
+      "city": "Greater Bendigo",
+      "group_id": "D02",
+      "stage": "B",
+      "variable": "flow",
+      "horizon_minutes": 60,
+      "horizon_steps": 4,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "T01:flow:15": {
+      "city": "Madrid",
+      "group_id": "T01",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 15,
+      "horizon_steps": 1,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/measurement_point"
+    },
+    "T01:flow:60": {
+      "city": "Madrid",
+      "group_id": "T01",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 60,
+      "horizon_steps": 4,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/measurement_point"
+    },
+    "T02:flow:15": {
+      "city": "Innsbruck",
+      "group_id": "T02",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 15,
+      "horizon_steps": 1,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/lane"
+    },
+    "T02:flow:60": {
+      "city": "Innsbruck",
+      "group_id": "T02",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 60,
+      "horizon_steps": 4,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/lane"
+    },
+    "T03:flow:15": {
+      "city": "Greater Geelong",
+      "group_id": "T03",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 15,
+      "horizon_steps": 1,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "T03:flow:60": {
+      "city": "Greater Geelong",
+      "group_id": "T03",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 60,
+      "horizon_steps": 4,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "T04:flow:15": {
+      "city": "Latrobe",
+      "group_id": "T04",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 15,
+      "horizon_steps": 1,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    },
+    "T04:flow:60": {
+      "city": "Latrobe",
+      "group_id": "T04",
+      "stage": "C",
+      "variable": "flow",
+      "horizon_minutes": 60,
+      "horizon_steps": 4,
+      "frequency_seconds": 900,
+      "feature_history_days": [
+        0,
+        16
+      ],
+      "train_target_days": [
+        7,
+        16
+      ],
+      "early_target_days": [
+        16,
+        23
+      ],
+      "corpus_target_days": [
+        23,
+        30
+      ],
+      "units": "vehicles/hour/detector"
+    }
+  },
+  "features": {
+    "utd19:bremen:flow:15min": {
+      "nodes": 406,
+      "history_points": 5280,
+      "observed_fraction": 0.9552549820868786,
+      "native_mean_node_mean": 241.63084886501508,
+      "native_mean_node_std": 182.0543469871843,
+      "daily_lag_corr_median": 0.7679096934591616,
+      "weekly_lag_corr_median": 0.8288124219692746,
+      "daily_profile_explained_fraction_median": 0.7583345164283761,
+      "first_last_week_mean_shift_over_std_median": null,
+      "adjacent_step_abs_difference_over_std_median": 0.4232461594508805,
+      "spatial_abs_corr_mean": 0.7498209398901924,
+      "spatial_abs_corr_p90": 0.8362510062533408,
+      "spatial_after_daily_profile_abs_corr_mean": 0.23493081636232438,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 406,
+      "zero_valid_fraction": 0.09918735633699441,
+      "hourly_step_abs_difference_over_std_median": 0.5195012105350528,
+      "daily_lag_valid_pairs": 1779185,
+      "weekly_lag_valid_pairs": 776776,
+      "daily_lag_valid_nodes": 406,
+      "weekly_lag_valid_nodes": 406,
+      "nonoverlapping_week_shift_valid_nodes": 0,
+      "numeric_observed_fraction": 0.9997574264815644,
+      "row_present_fraction": 0.9997574264815644,
+      "annotation_known_fraction_on_present": 1.0,
+      "known_bad_fraction_on_present": 0.044513242128445846,
+      "unknown_annotation_fraction_on_present": 0.0,
+      "strict_clean_fraction_on_present": 0.9554867578715541,
+      "primary_unknown_annotation_fraction": 0.0,
+      "frequency_seconds": 180,
+      "forecast_minutes": 15,
+      "training_target_days": 4,
+      "provided_graph_available": 0
+    },
+    "utd19:bremen:flow:60min": {
+      "nodes": 406,
+      "history_points": 5280,
+      "observed_fraction": 0.9552549820868786,
+      "native_mean_node_mean": 241.63084886501508,
+      "native_mean_node_std": 182.0543469871843,
+      "daily_lag_corr_median": 0.7679096934591616,
+      "weekly_lag_corr_median": 0.8288124219692746,
+      "daily_profile_explained_fraction_median": 0.7583345164283761,
+      "first_last_week_mean_shift_over_std_median": null,
+      "adjacent_step_abs_difference_over_std_median": 0.4232461594508805,
+      "spatial_abs_corr_mean": 0.7498209398901924,
+      "spatial_abs_corr_p90": 0.8362510062533408,
+      "spatial_after_daily_profile_abs_corr_mean": 0.23493081636232438,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 406,
+      "zero_valid_fraction": 0.09918735633699441,
+      "hourly_step_abs_difference_over_std_median": 0.5195012105350528,
+      "daily_lag_valid_pairs": 1779185,
+      "weekly_lag_valid_pairs": 776776,
+      "daily_lag_valid_nodes": 406,
+      "weekly_lag_valid_nodes": 406,
+      "nonoverlapping_week_shift_valid_nodes": 0,
+      "numeric_observed_fraction": 0.9997574264815644,
+      "row_present_fraction": 0.9997574264815644,
+      "annotation_known_fraction_on_present": 1.0,
+      "known_bad_fraction_on_present": 0.044513242128445846,
+      "unknown_annotation_fraction_on_present": 0.0,
+      "strict_clean_fraction_on_present": 0.9554867578715541,
+      "primary_unknown_annotation_fraction": 0.0,
+      "frequency_seconds": 180,
+      "forecast_minutes": 60,
+      "training_target_days": 4,
+      "provided_graph_available": 0
+    },
+    "utd19:essen:flow:15min": {
+      "nodes": 36,
+      "history_points": 6048,
+      "observed_fraction": 0.8172674162257496,
+      "native_mean_node_mean": 224.43617914269518,
+      "native_mean_node_std": 160.2850587785338,
+      "daily_lag_corr_median": 0.7528453897751028,
+      "weekly_lag_corr_median": 0.9109531661278172,
+      "daily_profile_explained_fraction_median": 0.7208520150086287,
+      "first_last_week_mean_shift_over_std_median": 0.059650854850709485,
+      "adjacent_step_abs_difference_over_std_median": 0.2879857092856267,
+      "spatial_abs_corr_mean": 0.825623972394575,
+      "spatial_abs_corr_p90": 0.9073366922765274,
+      "spatial_after_daily_profile_abs_corr_mean": 0.5919780020878742,
+      "spatial_sampled_nodes": 36,
+      "spatial_valid_pairs": 630,
+      "valid_history_nodes": 36,
+      "zero_valid_fraction": 0.018062065167301706,
+      "hourly_step_abs_difference_over_std_median": 0.3842793674625764,
+      "daily_lag_valid_pairs": 165934,
+      "weekly_lag_valid_pairs": 116465,
+      "daily_lag_valid_nodes": 36,
+      "weekly_lag_valid_nodes": 36,
+      "nonoverlapping_week_shift_valid_nodes": 36,
+      "numeric_observed_fraction": 0.8192056143445032,
+      "row_present_fraction": 0.8192056143445032,
+      "annotation_known_fraction_on_present": 1.0,
+      "known_bad_fraction_on_present": 0.00236594828552847,
+      "unknown_annotation_fraction_on_present": 0.0,
+      "strict_clean_fraction_on_present": 0.9976340517144715,
+      "primary_unknown_annotation_fraction": 0.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 15,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19:essen:flow:60min": {
+      "nodes": 36,
+      "history_points": 6048,
+      "observed_fraction": 0.8172674162257496,
+      "native_mean_node_mean": 224.43617914269518,
+      "native_mean_node_std": 160.2850587785338,
+      "daily_lag_corr_median": 0.7528453897751028,
+      "weekly_lag_corr_median": 0.9109531661278172,
+      "daily_profile_explained_fraction_median": 0.7208520150086287,
+      "first_last_week_mean_shift_over_std_median": 0.059650854850709485,
+      "adjacent_step_abs_difference_over_std_median": 0.2879857092856267,
+      "spatial_abs_corr_mean": 0.825623972394575,
+      "spatial_abs_corr_p90": 0.9073366922765274,
+      "spatial_after_daily_profile_abs_corr_mean": 0.5919780020878742,
+      "spatial_sampled_nodes": 36,
+      "spatial_valid_pairs": 630,
+      "valid_history_nodes": 36,
+      "zero_valid_fraction": 0.018062065167301706,
+      "hourly_step_abs_difference_over_std_median": 0.3842793674625764,
+      "daily_lag_valid_pairs": 165934,
+      "weekly_lag_valid_pairs": 116465,
+      "daily_lag_valid_nodes": 36,
+      "weekly_lag_valid_nodes": 36,
+      "nonoverlapping_week_shift_valid_nodes": 36,
+      "numeric_observed_fraction": 0.8192056143445032,
+      "row_present_fraction": 0.8192056143445032,
+      "annotation_known_fraction_on_present": 1.0,
+      "known_bad_fraction_on_present": 0.00236594828552847,
+      "unknown_annotation_fraction_on_present": 0.0,
+      "strict_clean_fraction_on_present": 0.9976340517144715,
+      "primary_unknown_annotation_fraction": 0.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 60,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19:essen:speed:15min": {
+      "nodes": 36,
+      "history_points": 6048,
+      "observed_fraction": 0.8172628233392122,
+      "native_mean_node_mean": 53.69689676231015,
+      "native_mean_node_std": 6.64238183164756,
+      "daily_lag_corr_median": 0.22668447423793375,
+      "weekly_lag_corr_median": 0.2913849527847418,
+      "daily_profile_explained_fraction_median": 0.23096944844848533,
+      "first_last_week_mean_shift_over_std_median": 0.09225075714985728,
+      "adjacent_step_abs_difference_over_std_median": 0.6644841772383798,
+      "spatial_abs_corr_mean": 0.18297873541381685,
+      "spatial_abs_corr_p90": 0.34180752705193623,
+      "spatial_after_daily_profile_abs_corr_mean": 0.08589800520508489,
+      "spatial_sampled_nodes": 36,
+      "spatial_valid_pairs": 630,
+      "valid_history_nodes": 36,
+      "zero_valid_fraction": 0.0,
+      "hourly_step_abs_difference_over_std_median": 0.7876883762842708,
+      "daily_lag_valid_pairs": 165933,
+      "weekly_lag_valid_pairs": 116464,
+      "daily_lag_valid_nodes": 36,
+      "weekly_lag_valid_nodes": 36,
+      "nonoverlapping_week_shift_valid_nodes": 36,
+      "numeric_observed_fraction": 0.8192010214579659,
+      "row_present_fraction": 0.8192056143445032,
+      "annotation_known_fraction_on_present": 1.0,
+      "known_bad_fraction_on_present": 0.00236594828552847,
+      "unknown_annotation_fraction_on_present": 0.0,
+      "strict_clean_fraction_on_present": 0.9976284452019466,
+      "primary_unknown_annotation_fraction": 0.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 15,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19:essen:speed:60min": {
+      "nodes": 36,
+      "history_points": 6048,
+      "observed_fraction": 0.8172628233392122,
+      "native_mean_node_mean": 53.69689676231015,
+      "native_mean_node_std": 6.64238183164756,
+      "daily_lag_corr_median": 0.22668447423793375,
+      "weekly_lag_corr_median": 0.2913849527847418,
+      "daily_profile_explained_fraction_median": 0.23096944844848533,
+      "first_last_week_mean_shift_over_std_median": 0.09225075714985728,
+      "adjacent_step_abs_difference_over_std_median": 0.6644841772383798,
+      "spatial_abs_corr_mean": 0.18297873541381685,
+      "spatial_abs_corr_p90": 0.34180752705193623,
+      "spatial_after_daily_profile_abs_corr_mean": 0.08589800520508489,
+      "spatial_sampled_nodes": 36,
+      "spatial_valid_pairs": 630,
+      "valid_history_nodes": 36,
+      "zero_valid_fraction": 0.0,
+      "hourly_step_abs_difference_over_std_median": 0.7876883762842708,
+      "daily_lag_valid_pairs": 165933,
+      "weekly_lag_valid_pairs": 116464,
+      "daily_lag_valid_nodes": 36,
+      "weekly_lag_valid_nodes": 36,
+      "nonoverlapping_week_shift_valid_nodes": 36,
+      "numeric_observed_fraction": 0.8192010214579659,
+      "row_present_fraction": 0.8192056143445032,
+      "annotation_known_fraction_on_present": 1.0,
+      "known_bad_fraction_on_present": 0.00236594828552847,
+      "unknown_annotation_fraction_on_present": 0.0,
+      "strict_clean_fraction_on_present": 0.9976284452019466,
+      "primary_unknown_annotation_fraction": 0.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 60,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19:melbourne:flow:15min": {
+      "nodes": 810,
+      "history_points": 1152,
+      "observed_fraction": 0.9580311213991769,
+      "native_mean_node_mean": 237.94753102687048,
+      "native_mean_node_std": 140.98070696338183,
+      "daily_lag_corr_median": 0.8530903351218083,
+      "weekly_lag_corr_median": 0.9179871692437672,
+      "daily_profile_explained_fraction_median": 0.8226875980461978,
+      "first_last_week_mean_shift_over_std_median": null,
+      "adjacent_step_abs_difference_over_std_median": 0.2708520409380585,
+      "spatial_abs_corr_mean": 0.6855157484066438,
+      "spatial_abs_corr_p90": 0.8502067808517724,
+      "spatial_after_daily_profile_abs_corr_mean": 0.2575589189697101,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 810,
+      "zero_valid_fraction": 0.009881896017486281,
+      "hourly_step_abs_difference_over_std_median": 0.42278437493745963,
+      "daily_lag_valid_pairs": 792341,
+      "weekly_lag_valid_pairs": 386210,
+      "daily_lag_valid_nodes": 810,
+      "weekly_lag_valid_nodes": 810,
+      "nonoverlapping_week_shift_valid_nodes": 0,
+      "numeric_observed_fraction": 0.9989508316186557,
+      "row_present_fraction": 0.9989508316186557,
+      "annotation_known_fraction_on_present": 0.0409626869754683,
+      "known_bad_fraction_on_present": 0.0409626869754683,
+      "unknown_annotation_fraction_on_present": 0.9590373130245317,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 5,
+      "provided_graph_available": 0
+    },
+    "utd19:melbourne:flow:60min": {
+      "nodes": 810,
+      "history_points": 1152,
+      "observed_fraction": 0.9580311213991769,
+      "native_mean_node_mean": 237.94753102687048,
+      "native_mean_node_std": 140.98070696338183,
+      "daily_lag_corr_median": 0.8530903351218083,
+      "weekly_lag_corr_median": 0.9179871692437672,
+      "daily_profile_explained_fraction_median": 0.8226875980461978,
+      "first_last_week_mean_shift_over_std_median": null,
+      "adjacent_step_abs_difference_over_std_median": 0.2708520409380585,
+      "spatial_abs_corr_mean": 0.6855157484066438,
+      "spatial_abs_corr_p90": 0.8502067808517724,
+      "spatial_after_daily_profile_abs_corr_mean": 0.2575589189697101,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 810,
+      "zero_valid_fraction": 0.009881896017486281,
+      "hourly_step_abs_difference_over_std_median": 0.42278437493745963,
+      "daily_lag_valid_pairs": 792341,
+      "weekly_lag_valid_pairs": 386210,
+      "daily_lag_valid_nodes": 810,
+      "weekly_lag_valid_nodes": 810,
+      "nonoverlapping_week_shift_valid_nodes": 0,
+      "numeric_observed_fraction": 0.9989508316186557,
+      "row_present_fraction": 0.9989508316186557,
+      "annotation_known_fraction_on_present": 0.0409626869754683,
+      "known_bad_fraction_on_present": 0.0409626869754683,
+      "unknown_annotation_fraction_on_present": 0.9590373130245317,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 5,
+      "provided_graph_available": 0
+    },
+    "utd19:torino:flow:15min": {
+      "nodes": 281,
+      "history_points": 4320,
+      "observed_fraction": 0.9715516673256887,
+      "native_mean_node_mean": 463.96053856126264,
+      "native_mean_node_std": 305.2764894369229,
+      "daily_lag_corr_median": 0.790969543728523,
+      "weekly_lag_corr_median": 0.8943052531368683,
+      "daily_profile_explained_fraction_median": 0.7784550822405614,
+      "first_last_week_mean_shift_over_std_median": 0.023069024533243762,
+      "adjacent_step_abs_difference_over_std_median": 0.3339287718000051,
+      "spatial_abs_corr_mean": 0.8107800574955132,
+      "spatial_abs_corr_p90": 0.8791701167917174,
+      "spatial_after_daily_profile_abs_corr_mean": 0.41442829597862313,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 281,
+      "zero_valid_fraction": 0.01872499758348836,
+      "hourly_step_abs_difference_over_std_median": 0.4753036025726718,
+      "daily_lag_valid_pairs": 1074402,
+      "weekly_lag_valid_pairs": 617095,
+      "daily_lag_valid_nodes": 281,
+      "weekly_lag_valid_nodes": 281,
+      "nonoverlapping_week_shift_valid_nodes": 281,
+      "numeric_observed_fraction": 0.9811124291551337,
+      "row_present_fraction": 0.9811124291551337,
+      "annotation_known_fraction_on_present": 0.009744817765358625,
+      "known_bad_fraction_on_present": 0.009744817765358625,
+      "unknown_annotation_fraction_on_present": 0.9902551822346414,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 15,
+      "training_target_days": 8,
+      "provided_graph_available": 0
+    },
+    "utd19:torino:flow:60min": {
+      "nodes": 281,
+      "history_points": 4320,
+      "observed_fraction": 0.9715516673256887,
+      "native_mean_node_mean": 463.96053856126264,
+      "native_mean_node_std": 305.2764894369229,
+      "daily_lag_corr_median": 0.790969543728523,
+      "weekly_lag_corr_median": 0.8943052531368683,
+      "daily_profile_explained_fraction_median": 0.7784550822405614,
+      "first_last_week_mean_shift_over_std_median": 0.023069024533243762,
+      "adjacent_step_abs_difference_over_std_median": 0.3339287718000051,
+      "spatial_abs_corr_mean": 0.8107800574955132,
+      "spatial_abs_corr_p90": 0.8791701167917174,
+      "spatial_after_daily_profile_abs_corr_mean": 0.41442829597862313,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 281,
+      "zero_valid_fraction": 0.01872499758348836,
+      "hourly_step_abs_difference_over_std_median": 0.4753036025726718,
+      "daily_lag_valid_pairs": 1074402,
+      "weekly_lag_valid_pairs": 617095,
+      "daily_lag_valid_nodes": 281,
+      "weekly_lag_valid_nodes": 281,
+      "nonoverlapping_week_shift_valid_nodes": 281,
+      "numeric_observed_fraction": 0.9811124291551337,
+      "row_present_fraction": 0.9811124291551337,
+      "annotation_known_fraction_on_present": 0.009744817765358625,
+      "known_bad_fraction_on_present": 0.009744817765358625,
+      "unknown_annotation_fraction_on_present": 0.9902551822346414,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 60,
+      "training_target_days": 8,
+      "provided_graph_available": 0
+    },
+    "utd19:torino:speed:15min": {
+      "nodes": 281,
+      "history_points": 4320,
+      "observed_fraction": 0.9715516673256887,
+      "native_mean_node_mean": 44.83217025071177,
+      "native_mean_node_std": 12.159136422964337,
+      "daily_lag_corr_median": 0.15534236172598478,
+      "weekly_lag_corr_median": 0.18959656647371598,
+      "daily_profile_explained_fraction_median": 0.1947569603997521,
+      "first_last_week_mean_shift_over_std_median": 0.04153591030992499,
+      "adjacent_step_abs_difference_over_std_median": 0.7915194727703544,
+      "spatial_abs_corr_mean": 0.07973948346942204,
+      "spatial_abs_corr_p90": 0.15947587198408575,
+      "spatial_after_daily_profile_abs_corr_mean": 0.039051110156217095,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 281,
+      "zero_valid_fraction": 0.01872499758348836,
+      "hourly_step_abs_difference_over_std_median": 0.8348971934954161,
+      "daily_lag_valid_pairs": 1074402,
+      "weekly_lag_valid_pairs": 617095,
+      "daily_lag_valid_nodes": 281,
+      "weekly_lag_valid_nodes": 281,
+      "nonoverlapping_week_shift_valid_nodes": 281,
+      "numeric_observed_fraction": 0.9810885396072229,
+      "row_present_fraction": 0.9811124291551337,
+      "annotation_known_fraction_on_present": 0.009744817765358625,
+      "known_bad_fraction_on_present": 0.009744817765358625,
+      "unknown_annotation_fraction_on_present": 0.9902551822346414,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 15,
+      "training_target_days": 8,
+      "provided_graph_available": 0
+    },
+    "utd19:torino:speed:60min": {
+      "nodes": 281,
+      "history_points": 4320,
+      "observed_fraction": 0.9715516673256887,
+      "native_mean_node_mean": 44.83217025071177,
+      "native_mean_node_std": 12.159136422964337,
+      "daily_lag_corr_median": 0.15534236172598478,
+      "weekly_lag_corr_median": 0.18959656647371598,
+      "daily_profile_explained_fraction_median": 0.1947569603997521,
+      "first_last_week_mean_shift_over_std_median": 0.04153591030992499,
+      "adjacent_step_abs_difference_over_std_median": 0.7915194727703544,
+      "spatial_abs_corr_mean": 0.07973948346942204,
+      "spatial_abs_corr_p90": 0.15947587198408575,
+      "spatial_after_daily_profile_abs_corr_mean": 0.039051110156217095,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 281,
+      "zero_valid_fraction": 0.01872499758348836,
+      "hourly_step_abs_difference_over_std_median": 0.8348971934954161,
+      "daily_lag_valid_pairs": 1074402,
+      "weekly_lag_valid_pairs": 617095,
+      "daily_lag_valid_nodes": 281,
+      "weekly_lag_valid_nodes": 281,
+      "nonoverlapping_week_shift_valid_nodes": 281,
+      "numeric_observed_fraction": 0.9810885396072229,
+      "row_present_fraction": 0.9811124291551337,
+      "annotation_known_fraction_on_present": 0.009744817765358625,
+      "known_bad_fraction_on_present": 0.009744817765358625,
+      "unknown_annotation_fraction_on_present": 0.9902551822346414,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 300,
+      "forecast_minutes": 60,
+      "training_target_days": 8,
+      "provided_graph_available": 0
+    },
+    "utd19v53:hamburg:flow:15min": {
+      "nodes": 169,
+      "history_points": 10080,
+      "observed_fraction": 0.9236862496477881,
+      "native_mean_node_mean": 249.58259610437491,
+      "native_mean_node_std": 158.54104584805484,
+      "daily_lag_corr_median": 0.6639200361579857,
+      "weekly_lag_corr_median": 0.7397506173655105,
+      "daily_profile_explained_fraction_median": 0.612808603292524,
+      "first_last_week_mean_shift_over_std_median": 0.05113893280612234,
+      "adjacent_step_abs_difference_over_std_median": 0.4915459240224003,
+      "spatial_abs_corr_mean": 0.6236504588665943,
+      "spatial_abs_corr_p90": 0.7541251900195769,
+      "spatial_after_daily_profile_abs_corr_mean": 0.2668727654468461,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 169,
+      "zero_valid_fraction": 0.03815399633178648,
+      "hourly_step_abs_difference_over_std_median": 0.5784321887944579,
+      "daily_lag_valid_pairs": 1437852,
+      "weekly_lag_valid_pairs": 1010561,
+      "daily_lag_valid_nodes": 169,
+      "weekly_lag_valid_nodes": 169,
+      "nonoverlapping_week_shift_valid_nodes": 169,
+      "numeric_observed_fraction": 0.9987883910960834,
+      "row_present_fraction": 0.9987883910960834,
+      "annotation_known_fraction_on_present": 0.07519324625497222,
+      "known_bad_fraction_on_present": 0.07519324625497222,
+      "unknown_annotation_fraction_on_present": 0.9248067537450277,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 180,
+      "forecast_minutes": 15,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19v53:hamburg:flow:60min": {
+      "nodes": 169,
+      "history_points": 10080,
+      "observed_fraction": 0.9236862496477881,
+      "native_mean_node_mean": 249.58259610437491,
+      "native_mean_node_std": 158.54104584805484,
+      "daily_lag_corr_median": 0.6639200361579857,
+      "weekly_lag_corr_median": 0.7397506173655105,
+      "daily_profile_explained_fraction_median": 0.612808603292524,
+      "first_last_week_mean_shift_over_std_median": 0.05113893280612234,
+      "adjacent_step_abs_difference_over_std_median": 0.4915459240224003,
+      "spatial_abs_corr_mean": 0.6236504588665943,
+      "spatial_abs_corr_p90": 0.7541251900195769,
+      "spatial_after_daily_profile_abs_corr_mean": 0.2668727654468461,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 169,
+      "zero_valid_fraction": 0.03815399633178648,
+      "hourly_step_abs_difference_over_std_median": 0.5784321887944579,
+      "daily_lag_valid_pairs": 1437852,
+      "weekly_lag_valid_pairs": 1010561,
+      "daily_lag_valid_nodes": 169,
+      "weekly_lag_valid_nodes": 169,
+      "nonoverlapping_week_shift_valid_nodes": 169,
+      "numeric_observed_fraction": 0.9987883910960834,
+      "row_present_fraction": 0.9987883910960834,
+      "annotation_known_fraction_on_present": 0.07519324625497222,
+      "known_bad_fraction_on_present": 0.07519324625497222,
+      "unknown_annotation_fraction_on_present": 0.9248067537450277,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 180,
+      "forecast_minutes": 60,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19v53:luzern:flow:15min": {
+      "nodes": 82,
+      "history_points": 10080,
+      "observed_fraction": 0.8755020809136663,
+      "native_mean_node_mean": 346.2239731152169,
+      "native_mean_node_std": 192.18109832608278,
+      "daily_lag_corr_median": 0.6706168647414807,
+      "weekly_lag_corr_median": 0.7306639596328501,
+      "daily_profile_explained_fraction_median": 0.6317777756709115,
+      "first_last_week_mean_shift_over_std_median": 0.2384148257498412,
+      "adjacent_step_abs_difference_over_std_median": 0.43584367122785295,
+      "spatial_abs_corr_mean": 0.7288758463742574,
+      "spatial_abs_corr_p90": 0.8079261353034031,
+      "spatial_after_daily_profile_abs_corr_mean": 0.4826097670774003,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 82,
+      "zero_valid_fraction": 0.035118944801044695,
+      "hourly_step_abs_difference_over_std_median": 0.5809356185945014,
+      "daily_lag_valid_pairs": 628574,
+      "weekly_lag_valid_pairs": 443152,
+      "daily_lag_valid_nodes": 82,
+      "weekly_lag_valid_nodes": 82,
+      "nonoverlapping_week_shift_valid_nodes": 82,
+      "numeric_observed_fraction": 0.9998620789779327,
+      "row_present_fraction": 0.9998620789779327,
+      "annotation_known_fraction_on_present": 0.12437715228823178,
+      "known_bad_fraction_on_present": 0.12437715228823178,
+      "unknown_annotation_fraction_on_present": 0.8756228477117682,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 180,
+      "forecast_minutes": 15,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "utd19v53:luzern:flow:60min": {
+      "nodes": 82,
+      "history_points": 10080,
+      "observed_fraction": 0.8755020809136663,
+      "native_mean_node_mean": 346.2239731152169,
+      "native_mean_node_std": 192.18109832608278,
+      "daily_lag_corr_median": 0.6706168647414807,
+      "weekly_lag_corr_median": 0.7306639596328501,
+      "daily_profile_explained_fraction_median": 0.6317777756709115,
+      "first_last_week_mean_shift_over_std_median": 0.2384148257498412,
+      "adjacent_step_abs_difference_over_std_median": 0.43584367122785295,
+      "spatial_abs_corr_mean": 0.7288758463742574,
+      "spatial_abs_corr_p90": 0.8079261353034031,
+      "spatial_after_daily_profile_abs_corr_mean": 0.4826097670774003,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 82,
+      "zero_valid_fraction": 0.035118944801044695,
+      "hourly_step_abs_difference_over_std_median": 0.5809356185945014,
+      "daily_lag_valid_pairs": 628574,
+      "weekly_lag_valid_pairs": 443152,
+      "daily_lag_valid_nodes": 82,
+      "weekly_lag_valid_nodes": 82,
+      "nonoverlapping_week_shift_valid_nodes": 82,
+      "numeric_observed_fraction": 0.9998620789779327,
+      "row_present_fraction": 0.9998620789779327,
+      "annotation_known_fraction_on_present": 0.12437715228823178,
+      "known_bad_fraction_on_present": 0.12437715228823178,
+      "unknown_annotation_fraction_on_present": 0.8756228477117682,
+      "strict_clean_fraction_on_present": 0.0,
+      "primary_unknown_annotation_fraction": 1.0,
+      "frequency_seconds": 180,
+      "forecast_minutes": 60,
+      "training_target_days": 14,
+      "provided_graph_available": 0
+    },
+    "D01:flow:15": {
+      "nodes": 34,
+      "history_points": 1536,
+      "observed_fraction": 0.9871323529411765,
+      "native_mean_node_mean": 103.42523193359375,
+      "native_mean_node_std": 84.92586694394844,
+      "daily_lag_corr_median": 0.8397089590959129,
+      "weekly_lag_corr_median": 0.8370028087195432,
+      "daily_profile_explained_fraction_median": 0.8456817581990796,
+      "first_last_week_mean_shift_over_std_median": 0.08702707410793203,
+      "adjacent_step_abs_difference_over_std_median": 0.25948189341367495,
+      "spatial_abs_corr_mean": 0.7623836072312117,
+      "spatial_abs_corr_p90": 0.9202669778859917,
+      "spatial_after_daily_profile_abs_corr_mean": 0.32560841883817465,
+      "spatial_sampled_nodes": 34,
+      "spatial_valid_pairs": 528,
+      "valid_history_nodes": 34,
+      "zero_valid_fraction": 0.16356300434512724,
+      "hourly_step_abs_difference_over_std_median": 0.34788377342165655,
+      "daily_lag_valid_pairs": 47712,
+      "weekly_lag_valid_pairs": 28416,
+      "daily_lag_valid_nodes": 33,
+      "weekly_lag_valid_nodes": 33,
+      "nonoverlapping_week_shift_valid_nodes": 34,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "D01:flow:60": {
+      "nodes": 34,
+      "history_points": 1536,
+      "observed_fraction": 0.9871323529411765,
+      "native_mean_node_mean": 103.42523193359375,
+      "native_mean_node_std": 84.92586694394844,
+      "daily_lag_corr_median": 0.8397089590959129,
+      "weekly_lag_corr_median": 0.8370028087195432,
+      "daily_profile_explained_fraction_median": 0.8456817581990796,
+      "first_last_week_mean_shift_over_std_median": 0.08702707410793203,
+      "adjacent_step_abs_difference_over_std_median": 0.25948189341367495,
+      "spatial_abs_corr_mean": 0.7623836072312117,
+      "spatial_abs_corr_p90": 0.9202669778859917,
+      "spatial_after_daily_profile_abs_corr_mean": 0.32560841883817465,
+      "spatial_sampled_nodes": 34,
+      "spatial_valid_pairs": 528,
+      "valid_history_nodes": 34,
+      "zero_valid_fraction": 0.16356300434512724,
+      "hourly_step_abs_difference_over_std_median": 0.34788377342165655,
+      "daily_lag_valid_pairs": 47712,
+      "weekly_lag_valid_pairs": 28416,
+      "daily_lag_valid_nodes": 33,
+      "weekly_lag_valid_nodes": 33,
+      "nonoverlapping_week_shift_valid_nodes": 34,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "D02:flow:15": {
+      "nodes": 53,
+      "history_points": 1536,
+      "observed_fraction": 0.9964622641509434,
+      "native_mean_node_mean": 108.08495330810547,
+      "native_mean_node_std": 87.01177273156512,
+      "daily_lag_corr_median": 0.8717212149532849,
+      "weekly_lag_corr_median": 0.8816807188182902,
+      "daily_profile_explained_fraction_median": 0.8264214838265713,
+      "first_last_week_mean_shift_over_std_median": 0.08867373162734012,
+      "adjacent_step_abs_difference_over_std_median": 0.25500619821226256,
+      "spatial_abs_corr_mean": 0.7852103655319844,
+      "spatial_abs_corr_p90": 0.9290447778395786,
+      "spatial_after_daily_profile_abs_corr_mean": 0.4179948764127067,
+      "spatial_sampled_nodes": 53,
+      "spatial_valid_pairs": 1275,
+      "valid_history_nodes": 53,
+      "zero_valid_fraction": 0.133629191321499,
+      "hourly_step_abs_difference_over_std_median": 0.35361140043143835,
+      "daily_lag_valid_pairs": 75744,
+      "weekly_lag_valid_pairs": 45504,
+      "daily_lag_valid_nodes": 51,
+      "weekly_lag_valid_nodes": 51,
+      "nonoverlapping_week_shift_valid_nodes": 53,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "D02:flow:60": {
+      "nodes": 53,
+      "history_points": 1536,
+      "observed_fraction": 0.9964622641509434,
+      "native_mean_node_mean": 108.08495330810547,
+      "native_mean_node_std": 87.01177273156512,
+      "daily_lag_corr_median": 0.8717212149532849,
+      "weekly_lag_corr_median": 0.8816807188182902,
+      "daily_profile_explained_fraction_median": 0.8264214838265713,
+      "first_last_week_mean_shift_over_std_median": 0.08867373162734012,
+      "adjacent_step_abs_difference_over_std_median": 0.25500619821226256,
+      "spatial_abs_corr_mean": 0.7852103655319844,
+      "spatial_abs_corr_p90": 0.9290447778395786,
+      "spatial_after_daily_profile_abs_corr_mean": 0.4179948764127067,
+      "spatial_sampled_nodes": 53,
+      "spatial_valid_pairs": 1275,
+      "valid_history_nodes": 53,
+      "zero_valid_fraction": 0.133629191321499,
+      "hourly_step_abs_difference_over_std_median": 0.35361140043143835,
+      "daily_lag_valid_pairs": 75744,
+      "weekly_lag_valid_pairs": 45504,
+      "daily_lag_valid_nodes": 51,
+      "weekly_lag_valid_nodes": 51,
+      "nonoverlapping_week_shift_valid_nodes": 53,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T01:flow:15": {
+      "nodes": 383,
+      "history_points": 1536,
+      "observed_fraction": 0.9592257533724978,
+      "native_mean_node_mean": 1269.0994873046875,
+      "native_mean_node_std": 861.8027791752828,
+      "daily_lag_corr_median": 0.7758459953461556,
+      "weekly_lag_corr_median": 0.7901261655574923,
+      "daily_profile_explained_fraction_median": 0.6866346489777403,
+      "first_last_week_mean_shift_over_std_median": 0.2719344428247893,
+      "adjacent_step_abs_difference_over_std_median": 0.17229152870094835,
+      "spatial_abs_corr_mean": 0.8469957365986776,
+      "spatial_abs_corr_p90": 0.9479147395025669,
+      "spatial_after_daily_profile_abs_corr_mean": 0.7193652826581739,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 383,
+      "zero_valid_fraction": 0.020724755050939125,
+      "hourly_step_abs_difference_over_std_median": 0.3780141496262222,
+      "daily_lag_valid_pairs": 507895,
+      "weekly_lag_valid_pairs": 305640,
+      "daily_lag_valid_nodes": 382,
+      "weekly_lag_valid_nodes": 382,
+      "nonoverlapping_week_shift_valid_nodes": 383,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T01:flow:60": {
+      "nodes": 383,
+      "history_points": 1536,
+      "observed_fraction": 0.9592257533724978,
+      "native_mean_node_mean": 1269.0994873046875,
+      "native_mean_node_std": 861.8027791752828,
+      "daily_lag_corr_median": 0.7758459953461556,
+      "weekly_lag_corr_median": 0.7901261655574923,
+      "daily_profile_explained_fraction_median": 0.6866346489777403,
+      "first_last_week_mean_shift_over_std_median": 0.2719344428247893,
+      "adjacent_step_abs_difference_over_std_median": 0.17229152870094835,
+      "spatial_abs_corr_mean": 0.8469957365986776,
+      "spatial_abs_corr_p90": 0.9479147395025669,
+      "spatial_after_daily_profile_abs_corr_mean": 0.7193652826581739,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 2016,
+      "valid_history_nodes": 383,
+      "zero_valid_fraction": 0.020724755050939125,
+      "hourly_step_abs_difference_over_std_median": 0.3780141496262222,
+      "daily_lag_valid_pairs": 507895,
+      "weekly_lag_valid_pairs": 305640,
+      "daily_lag_valid_nodes": 382,
+      "weekly_lag_valid_nodes": 382,
+      "nonoverlapping_week_shift_valid_nodes": 383,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T02:flow:15": {
+      "nodes": 15,
+      "history_points": 1536,
+      "observed_fraction": 0.9823350694444445,
+      "native_mean_node_mean": 441.6175842285156,
+      "native_mean_node_std": 285.7607421875,
+      "daily_lag_corr_median": 0.8453161320060181,
+      "weekly_lag_corr_median": 0.9490885308416391,
+      "daily_profile_explained_fraction_median": 0.7643891941740475,
+      "first_last_week_mean_shift_over_std_median": 0.14897935574222648,
+      "adjacent_step_abs_difference_over_std_median": 0.20957660675048828,
+      "spatial_abs_corr_mean": 0.840620432810702,
+      "spatial_abs_corr_p90": 0.9438039758628725,
+      "spatial_after_daily_profile_abs_corr_mean": 0.6368027204833454,
+      "spatial_sampled_nodes": 15,
+      "spatial_valid_pairs": 105,
+      "valid_history_nodes": 15,
+      "zero_valid_fraction": 0.0005743825387708214,
+      "hourly_step_abs_difference_over_std_median": 0.32636138796806335,
+      "daily_lag_valid_pairs": 21137,
+      "weekly_lag_valid_pairs": 12658,
+      "daily_lag_valid_nodes": 15,
+      "weekly_lag_valid_nodes": 15,
+      "nonoverlapping_week_shift_valid_nodes": 15,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T02:flow:60": {
+      "nodes": 15,
+      "history_points": 1536,
+      "observed_fraction": 0.9823350694444445,
+      "native_mean_node_mean": 441.6175842285156,
+      "native_mean_node_std": 285.7607421875,
+      "daily_lag_corr_median": 0.8453161320060181,
+      "weekly_lag_corr_median": 0.9490885308416391,
+      "daily_profile_explained_fraction_median": 0.7643891941740475,
+      "first_last_week_mean_shift_over_std_median": 0.14897935574222648,
+      "adjacent_step_abs_difference_over_std_median": 0.20957660675048828,
+      "spatial_abs_corr_mean": 0.840620432810702,
+      "spatial_abs_corr_p90": 0.9438039758628725,
+      "spatial_after_daily_profile_abs_corr_mean": 0.6368027204833454,
+      "spatial_sampled_nodes": 15,
+      "spatial_valid_pairs": 105,
+      "valid_history_nodes": 15,
+      "zero_valid_fraction": 0.0005743825387708214,
+      "hourly_step_abs_difference_over_std_median": 0.32636138796806335,
+      "daily_lag_valid_pairs": 21137,
+      "weekly_lag_valid_pairs": 12658,
+      "daily_lag_valid_nodes": 15,
+      "weekly_lag_valid_nodes": 15,
+      "nonoverlapping_week_shift_valid_nodes": 15,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T03:flow:15": {
+      "nodes": 118,
+      "history_points": 1536,
+      "observed_fraction": 0.9814618644067796,
+      "native_mean_node_mean": 129.162841796875,
+      "native_mean_node_std": 100.47088796803257,
+      "daily_lag_corr_median": 0.8589277534020706,
+      "weekly_lag_corr_median": 0.8669273059176358,
+      "daily_profile_explained_fraction_median": 0.8153401011559119,
+      "first_last_week_mean_shift_over_std_median": 0.1392061494995681,
+      "adjacent_step_abs_difference_over_std_median": 0.259349525610186,
+      "spatial_abs_corr_mean": 0.699047601660396,
+      "spatial_abs_corr_p90": 0.9083941162852952,
+      "spatial_after_daily_profile_abs_corr_mean": 0.3224651177512441,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 1830,
+      "valid_history_nodes": 118,
+      "zero_valid_fraction": 0.13181889728368412,
+      "hourly_step_abs_difference_over_std_median": 0.35476025525111765,
+      "daily_lag_valid_pairs": 164160,
+      "weekly_lag_valid_pairs": 98400,
+      "daily_lag_valid_nodes": 113,
+      "weekly_lag_valid_nodes": 113,
+      "nonoverlapping_week_shift_valid_nodes": 118,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T03:flow:60": {
+      "nodes": 118,
+      "history_points": 1536,
+      "observed_fraction": 0.9814618644067796,
+      "native_mean_node_mean": 129.162841796875,
+      "native_mean_node_std": 100.47088796803257,
+      "daily_lag_corr_median": 0.8589277534020706,
+      "weekly_lag_corr_median": 0.8669273059176358,
+      "daily_profile_explained_fraction_median": 0.8153401011559119,
+      "first_last_week_mean_shift_over_std_median": 0.1392061494995681,
+      "adjacent_step_abs_difference_over_std_median": 0.259349525610186,
+      "spatial_abs_corr_mean": 0.699047601660396,
+      "spatial_abs_corr_p90": 0.9083941162852952,
+      "spatial_after_daily_profile_abs_corr_mean": 0.3224651177512441,
+      "spatial_sampled_nodes": 64,
+      "spatial_valid_pairs": 1830,
+      "valid_history_nodes": 118,
+      "zero_valid_fraction": 0.13181889728368412,
+      "hourly_step_abs_difference_over_std_median": 0.35476025525111765,
+      "daily_lag_valid_pairs": 164160,
+      "weekly_lag_valid_pairs": 98400,
+      "daily_lag_valid_nodes": 113,
+      "weekly_lag_valid_nodes": 113,
+      "nonoverlapping_week_shift_valid_nodes": 118,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T04:flow:15": {
+      "nodes": 12,
+      "history_points": 1536,
+      "observed_fraction": 1.0,
+      "native_mean_node_mean": 167.2766876220703,
+      "native_mean_node_std": 130.6196905771892,
+      "daily_lag_corr_median": 0.9198960032636067,
+      "weekly_lag_corr_median": 0.9189056848083601,
+      "daily_profile_explained_fraction_median": 0.8732604056164585,
+      "first_last_week_mean_shift_over_std_median": 0.09495153338838117,
+      "adjacent_step_abs_difference_over_std_median": 0.2033588395273733,
+      "spatial_abs_corr_mean": 0.8908920199138999,
+      "spatial_abs_corr_p90": 0.96625786086985,
+      "spatial_after_daily_profile_abs_corr_mean": 0.4419812857846112,
+      "spatial_sampled_nodes": 12,
+      "spatial_valid_pairs": 55,
+      "valid_history_nodes": 12,
+      "zero_valid_fraction": 0.10199652777777778,
+      "hourly_step_abs_difference_over_std_median": 0.2994710849138529,
+      "daily_lag_valid_pairs": 17280,
+      "weekly_lag_valid_pairs": 10368,
+      "daily_lag_valid_nodes": 11,
+      "weekly_lag_valid_nodes": 11,
+      "nonoverlapping_week_shift_valid_nodes": 12,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 15,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    },
+    "T04:flow:60": {
+      "nodes": 12,
+      "history_points": 1536,
+      "observed_fraction": 1.0,
+      "native_mean_node_mean": 167.2766876220703,
+      "native_mean_node_std": 130.6196905771892,
+      "daily_lag_corr_median": 0.9198960032636067,
+      "weekly_lag_corr_median": 0.9189056848083601,
+      "daily_profile_explained_fraction_median": 0.8732604056164585,
+      "first_last_week_mean_shift_over_std_median": 0.09495153338838117,
+      "adjacent_step_abs_difference_over_std_median": 0.2033588395273733,
+      "spatial_abs_corr_mean": 0.8908920199138999,
+      "spatial_abs_corr_p90": 0.96625786086985,
+      "spatial_after_daily_profile_abs_corr_mean": 0.4419812857846112,
+      "spatial_sampled_nodes": 12,
+      "spatial_valid_pairs": 55,
+      "valid_history_nodes": 12,
+      "zero_valid_fraction": 0.10199652777777778,
+      "hourly_step_abs_difference_over_std_median": 0.2994710849138529,
+      "daily_lag_valid_pairs": 17280,
+      "weekly_lag_valid_pairs": 10368,
+      "daily_lag_valid_nodes": 11,
+      "weekly_lag_valid_nodes": 11,
+      "nonoverlapping_week_shift_valid_nodes": 12,
+      "numeric_observed_fraction": null,
+      "row_present_fraction": null,
+      "annotation_known_fraction_on_present": null,
+      "known_bad_fraction_on_present": null,
+      "unknown_annotation_fraction_on_present": null,
+      "strict_clean_fraction_on_present": null,
+      "primary_unknown_annotation_fraction": null,
+      "frequency_seconds": 900,
+      "forecast_minutes": 60,
+      "training_target_days": 9,
+      "provided_graph_available": 0
+    }
+  },
+  "descriptors": {
+    "DayWeekAverage": {
+      "family": "rule",
+      "assembly": "equal_day_week_average",
+      "physical_recent_minutes": 0,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": false
+    },
+    "Persistence": {
+      "family": "rule",
+      "assembly": "last_available_value",
+      "physical_recent_minutes": "one_native_step",
+      "periodic_input": "none",
+      "fit_required": false
+    },
+    "Ridge_l12_daily": {
+      "family": "linear",
+      "assembly": "ridge",
+      "physical_recent_minutes": 60,
+      "calendar": "daily",
+      "periodic_input": "previous_day_and_week_segments",
+      "decoder": "direct",
+      "normalization": "train_scale",
+      "parameterization": "shared",
+      "loss": "squared_error_with_L2",
+      "fit_required": true
+    },
+    "Ridge_l12_none": {
+      "family": "linear",
+      "assembly": "ridge",
+      "physical_recent_minutes": 60,
+      "calendar": "none",
+      "periodic_input": "previous_day_and_week_segments",
+      "decoder": "direct",
+      "normalization": "train_scale",
+      "parameterization": "shared",
+      "loss": "squared_error_with_L2",
+      "fit_required": true
+    },
+    "Ridge_l36_daily": {
+      "family": "linear",
+      "assembly": "ridge",
+      "physical_recent_minutes": 180,
+      "calendar": "daily",
+      "periodic_input": "previous_day_and_week_segments",
+      "decoder": "direct",
+      "normalization": "train_scale",
+      "parameterization": "shared",
+      "loss": "squared_error_with_L2",
+      "fit_required": true
+    },
+    "Ridge_l36_none": {
+      "family": "linear",
+      "assembly": "ridge",
+      "physical_recent_minutes": 180,
+      "calendar": "none",
+      "periodic_input": "previous_day_and_week_segments",
+      "decoder": "direct",
+      "normalization": "train_scale",
+      "parameterization": "shared",
+      "loss": "squared_error_with_L2",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_003": {
+      "assembly": "graph_recurrent",
+      "spatial_operator": "chebyshev_graph_conv",
+      "graph_source": "adaptive_tied",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "node_pool",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mae",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_004": {
+      "assembly": "node_mlp",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "node_identity",
+      "calendar": "relative_daily_slot",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mae",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_005": {
+      "assembly": "axis_attention",
+      "spatial_operator": "dense_attention",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "adaptive_slot",
+      "calendar": "relative_daily_slot",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mae",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_006": {
+      "assembly": "graph_recurrent",
+      "spatial_operator": "powers_graph_conv",
+      "graph_source": "adaptive_asymmetric",
+      "normalization": "instance_scale",
+      "node_encoding": "node_identity",
+      "calendar": "relative_daily_slot",
+      "parameterization": "node_pool",
+      "delay_pattern": "off",
+      "decoder": "autoregressive",
+      "lookback": 36,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 180,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_008": {
+      "assembly": "axis_attention",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "instance_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 36,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 180,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_009": {
+      "assembly": "graph_recurrent",
+      "spatial_operator": "powers_graph_conv",
+      "graph_source": "adaptive_tied",
+      "normalization": "train_scale",
+      "node_encoding": "adaptive_slot",
+      "calendar": "relative_daily_slot",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "autoregressive",
+      "lookback": 36,
+      "loss": "huber",
+      "family": "neural",
+      "physical_recent_minutes": 180,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_011": {
+      "assembly": "dilated_graph_stack",
+      "spatial_operator": "chebyshev_graph_conv",
+      "graph_source": "adaptive_asymmetric",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "relative_daily_slot",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "huber",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_013": {
+      "assembly": "axis_attention",
+      "spatial_operator": "dense_attention",
+      "graph_source": "none",
+      "normalization": "instance_scale",
+      "node_encoding": "node_identity",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 36,
+      "loss": "huber",
+      "family": "neural",
+      "physical_recent_minutes": 180,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_014": {
+      "assembly": "node_mlp",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "instance_scale",
+      "node_encoding": "adaptive_slot",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 36,
+      "loss": "mae",
+      "family": "neural",
+      "physical_recent_minutes": 180,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_015": {
+      "assembly": "graph_sandwich",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "adaptive_slot",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 36,
+      "loss": "huber",
+      "family": "neural",
+      "physical_recent_minutes": 180,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_018": {
+      "assembly": "dilated_graph_stack",
+      "spatial_operator": "powers_graph_conv",
+      "graph_source": "adaptive_tied",
+      "normalization": "instance_scale",
+      "node_encoding": "node_identity",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_019": {
+      "assembly": "graph_recurrent",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "autoregressive",
+      "lookback": 12,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_020": {
+      "assembly": "dilated_graph_stack",
+      "spatial_operator": "powers_graph_conv",
+      "graph_source": "adaptive_asymmetric",
+      "normalization": "train_scale",
+      "node_encoding": "adaptive_slot",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mae",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_022": {
+      "assembly": "node_mlp",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_023": {
+      "assembly": "dilated_graph_stack",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_024": {
+      "assembly": "axis_attention",
+      "spatial_operator": "dense_attention",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "mse",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    },
+    "components_v5_current_pems_metadata_025": {
+      "assembly": "node_mlp",
+      "spatial_operator": "none",
+      "graph_source": "none",
+      "normalization": "train_scale",
+      "node_encoding": "none",
+      "calendar": "none",
+      "parameterization": "shared",
+      "delay_pattern": "off",
+      "decoder": "direct",
+      "lookback": 12,
+      "loss": "huber",
+      "family": "neural",
+      "physical_recent_minutes": 60,
+      "periodic_input": "previous_day_and_week_segments",
+      "fit_required": true
+    }
+  },
+  "labels": {
+    "utd19:essen:flow:60min": {
+      "components_v5_current_pems_metadata_004": [
+        35.76673397381984
+      ],
+      "Ridge_l12_none": [
+        36.39300711786714
+      ],
+      "Ridge_l12_daily": [
+        36.36234175950487
+      ],
+      "Ridge_l36_none": [
+        36.19234513216508
+      ],
+      "Ridge_l36_daily": [
+        36.13564454331013
+      ],
+      "Persistence": [
+        54.30727122258857
+      ],
+      "DayWeekAverage": [
+        45.74720515141285
+      ],
+      "components_v5_current_pems_metadata_003": [
+        36.370401565559646
+      ],
+      "components_v5_current_pems_metadata_005": [
+        35.10888242265931
+      ],
+      "components_v5_current_pems_metadata_006": [
+        35.926287383309045
+      ],
+      "components_v5_current_pems_metadata_008": [
+        36.076303448323394
+      ],
+      "components_v5_current_pems_metadata_009": [
+        36.04192563444757
+      ],
+      "components_v5_current_pems_metadata_011": [
+        35.732139270925856
+      ],
+      "components_v5_current_pems_metadata_013": [
+        35.85159284760805
+      ],
+      "components_v5_current_pems_metadata_014": [
+        35.895325186809586
+      ],
+      "components_v5_current_pems_metadata_015": [
+        36.412586256784046
+      ],
+      "components_v5_current_pems_metadata_018": [
+        35.75269300767057
+      ],
+      "components_v5_current_pems_metadata_019": [
+        36.349463374401395
+      ],
+      "components_v5_current_pems_metadata_020": [
+        35.9883911848093
+      ],
+      "components_v5_current_pems_metadata_022": [
+        36.31208479119657
+      ],
+      "components_v5_current_pems_metadata_023": [
+        36.398010931881245
+      ],
+      "components_v5_current_pems_metadata_024": [
+        36.10798380807406
+      ],
+      "components_v5_current_pems_metadata_025": [
+        36.30321512639872
+      ]
+    },
+    "utd19:essen:flow:15min": {
+      "components_v5_current_pems_metadata_004": [
+        34.34586683992682
+      ],
+      "Ridge_l12_none": [
+        35.89648330977557
+      ],
+      "Ridge_l12_daily": [
+        35.6578718184225
+      ],
+      "Ridge_l36_none": [
+        35.44308182605519
+      ],
+      "Ridge_l36_daily": [
+        35.25296259465929
+      ],
+      "Persistence": [
+        46.15027970088489
+      ],
+      "DayWeekAverage": [
+        45.96643588241932
+      ],
+      "components_v5_current_pems_metadata_003": [
+        35.175224360298955
+      ],
+      "components_v5_current_pems_metadata_005": [
+        34.06854769784355
+      ],
+      "components_v5_current_pems_metadata_006": [
+        34.782147693597956
+      ],
+      "components_v5_current_pems_metadata_008": [
+        35.27254235916446
+      ],
+      "components_v5_current_pems_metadata_009": [
+        34.421356267472
+      ],
+      "components_v5_current_pems_metadata_011": [
+        34.389442310139465
+      ],
+      "components_v5_current_pems_metadata_013": [
+        34.46000249839864
+      ],
+      "components_v5_current_pems_metadata_014": [
+        34.93918727274056
+      ],
+      "components_v5_current_pems_metadata_015": [
+        34.767290721816224
+      ],
+      "components_v5_current_pems_metadata_018": [
+        34.62159872662427
+      ],
+      "components_v5_current_pems_metadata_019": [
+        35.95532504235487
+      ],
+      "components_v5_current_pems_metadata_020": [
+        34.44363393369586
+      ],
+      "components_v5_current_pems_metadata_022": [
+        35.71984572992232
+      ],
+      "components_v5_current_pems_metadata_023": [
+        35.711464400924534
+      ],
+      "components_v5_current_pems_metadata_024": [
+        34.835302282388525
+      ],
+      "components_v5_current_pems_metadata_025": [
+        35.71056244863389
+      ]
+    },
+    "utd19:essen:speed:60min": {
+      "components_v5_current_pems_metadata_004": [
+        3.6608737936841913
+      ],
+      "Ridge_l12_none": [
+        3.736836122048171
+      ],
+      "Ridge_l12_daily": [
+        3.7221993639399047
+      ],
+      "Ridge_l36_none": [
+        3.7380536463539946
+      ],
+      "Ridge_l36_daily": [
+        3.7230323831428627
+      ],
+      "Persistence": [
+        4.761782491581098
+      ],
+      "DayWeekAverage": [
+        4.6207460716995366
+      ],
+      "components_v5_current_pems_metadata_003": [
+        3.669726977408696
+      ],
+      "components_v5_current_pems_metadata_005": [
+        3.6233703811128697
+      ],
+      "components_v5_current_pems_metadata_006": [
+        3.7016311541948204
+      ],
+      "components_v5_current_pems_metadata_008": [
+        3.7240036274270665
+      ],
+      "components_v5_current_pems_metadata_009": [
+        3.627569308824367
+      ],
+      "components_v5_current_pems_metadata_011": [
+        3.6587709456741595
+      ],
+      "components_v5_current_pems_metadata_013": [
+        3.7177804419382174
+      ],
+      "components_v5_current_pems_metadata_014": [
+        3.730517613691297
+      ],
+      "components_v5_current_pems_metadata_015": [
+        3.69346114455428
+      ],
+      "components_v5_current_pems_metadata_018": [
+        3.735028324185087
+      ],
+      "components_v5_current_pems_metadata_019": [
+        3.690625200471907
+      ],
+      "components_v5_current_pems_metadata_020": [
+        3.6725512355889274
+      ],
+      "components_v5_current_pems_metadata_022": [
+        3.7057114332879837
+      ],
+      "components_v5_current_pems_metadata_023": [
+        3.6942366189162885
+      ],
+      "components_v5_current_pems_metadata_024": [
+        3.6762473824574315
+      ],
+      "components_v5_current_pems_metadata_025": [
+        3.705264348173557
+      ]
+    },
+    "utd19:essen:speed:15min": {
+      "components_v5_current_pems_metadata_004": [
+        3.454241205902771
+      ],
+      "Ridge_l12_none": [
+        3.5548044417263505
+      ],
+      "Ridge_l12_daily": [
+        3.5452146262106976
+      ],
+      "Ridge_l36_none": [
+        3.557041095708927
+      ],
+      "Ridge_l36_daily": [
+        3.547117501574856
+      ],
+      "Persistence": [
+        4.315363515298513
+      ],
+      "DayWeekAverage": [
+        4.630025329012845
+      ],
+      "components_v5_current_pems_metadata_003": [
+        3.4817180129457244
+      ],
+      "components_v5_current_pems_metadata_005": [
+        3.4420209657000997
+      ],
+      "components_v5_current_pems_metadata_006": [
+        3.533528430207455
+      ],
+      "components_v5_current_pems_metadata_008": [
+        3.5243380338945123
+      ],
+      "components_v5_current_pems_metadata_009": [
+        3.424244162912126
+      ],
+      "components_v5_current_pems_metadata_011": [
+        3.458767873137239
+      ],
+      "components_v5_current_pems_metadata_013": [
+        3.4929442293976622
+      ],
+      "components_v5_current_pems_metadata_014": [
+        3.531727613808161
+      ],
+      "components_v5_current_pems_metadata_015": [
+        3.4741555019175205
+      ],
+      "components_v5_current_pems_metadata_018": [
+        3.530570203542262
+      ],
+      "components_v5_current_pems_metadata_019": [
+        3.47843268250125
+      ],
+      "components_v5_current_pems_metadata_020": [
+        3.4440673004550644
+      ],
+      "components_v5_current_pems_metadata_022": [
+        3.500031332347584
+      ],
+      "components_v5_current_pems_metadata_023": [
+        3.485639692569495
+      ],
+      "components_v5_current_pems_metadata_024": [
+        3.47325837857897
+      ],
+      "components_v5_current_pems_metadata_025": [
+        3.49390176473572
+      ]
+    },
+    "utd19:bremen:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        56.54623716482393
+      ],
+      "components_v5_current_pems_metadata_004": [
+        56.63392604342195
+      ],
+      "components_v5_current_pems_metadata_005": [
+        55.509389217046106
+      ],
+      "components_v5_current_pems_metadata_006": [
+        71.22461613770366
+      ],
+      "components_v5_current_pems_metadata_008": [
+        57.110757295840116
+      ],
+      "components_v5_current_pems_metadata_009": [
+        56.49444913951805
+      ],
+      "components_v5_current_pems_metadata_011": [
+        56.07864773870012
+      ],
+      "components_v5_current_pems_metadata_013": [
+        55.863847366387134
+      ],
+      "components_v5_current_pems_metadata_014": [
+        56.94028521788829
+      ],
+      "components_v5_current_pems_metadata_015": [
+        57.17634864931001
+      ],
+      "components_v5_current_pems_metadata_018": [
+        56.00282181183822
+      ],
+      "components_v5_current_pems_metadata_019": [
+        57.54421205722798
+      ],
+      "components_v5_current_pems_metadata_020": [
+        56.20761472125438
+      ],
+      "components_v5_current_pems_metadata_022": [
+        57.3787435943082
+      ],
+      "components_v5_current_pems_metadata_023": [
+        56.92156099693726
+      ],
+      "components_v5_current_pems_metadata_024": [
+        55.57870149119775
+      ],
+      "components_v5_current_pems_metadata_025": [
+        57.42177860419693
+      ],
+      "Ridge_l12_none": [
+        57.744840003205624
+      ],
+      "Ridge_l12_daily": [
+        59.0647598394663
+      ],
+      "Ridge_l36_none": [
+        57.86723112254511
+      ],
+      "Ridge_l36_daily": [
+        60.14305936050236
+      ],
+      "Persistence": [
+        67.96352399558225
+      ],
+      "DayWeekAverage": [
+        86.25012009749189
+      ]
+    },
+    "utd19:bremen:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        62.96471499669794
+      ],
+      "components_v5_current_pems_metadata_004": [
+        61.3864472249829
+      ],
+      "components_v5_current_pems_metadata_005": [
+        60.4933578937412
+      ],
+      "components_v5_current_pems_metadata_006": [
+        90.26228260324639
+      ],
+      "components_v5_current_pems_metadata_008": [
+        61.940902161915396
+      ],
+      "components_v5_current_pems_metadata_009": [
+        60.814355943082255
+      ],
+      "components_v5_current_pems_metadata_011": [
+        61.857782990999915
+      ],
+      "components_v5_current_pems_metadata_013": [
+        61.73430993694928
+      ],
+      "components_v5_current_pems_metadata_014": [
+        61.52214181667398
+      ],
+      "components_v5_current_pems_metadata_015": [
+        62.5663557210064
+      ],
+      "components_v5_current_pems_metadata_018": [
+        61.182818803384585
+      ],
+      "components_v5_current_pems_metadata_019": [
+        63.07075379931085
+      ],
+      "components_v5_current_pems_metadata_020": [
+        61.28939701351633
+      ],
+      "components_v5_current_pems_metadata_022": [
+        61.82929003119626
+      ],
+      "components_v5_current_pems_metadata_023": [
+        61.89883429414284
+      ],
+      "components_v5_current_pems_metadata_024": [
+        60.982485716004
+      ],
+      "components_v5_current_pems_metadata_025": [
+        61.86558898571073
+      ],
+      "Ridge_l12_none": [
+        61.9020315925771
+      ],
+      "Ridge_l12_daily": [
+        63.04638962450712
+      ],
+      "Ridge_l36_none": [
+        62.0013619088472
+      ],
+      "Ridge_l36_daily": [
+        63.96504920433024
+      ],
+      "Persistence": [
+        72.68041019600012
+      ],
+      "DayWeekAverage": [
+        86.46551100020783
+      ]
+    },
+    "utd19:torino:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        71.2237409998628
+      ],
+      "components_v5_current_pems_metadata_004": [
+        71.5726797226331
+      ],
+      "components_v5_current_pems_metadata_005": [
+        70.65429549192552
+      ],
+      "components_v5_current_pems_metadata_006": [
+        71.61950736810084
+      ],
+      "components_v5_current_pems_metadata_008": [
+        72.78591779300625
+      ],
+      "components_v5_current_pems_metadata_009": [
+        71.17586358469768
+      ],
+      "components_v5_current_pems_metadata_011": [
+        70.86292175030836
+      ],
+      "components_v5_current_pems_metadata_013": [
+        71.05836866304342
+      ],
+      "components_v5_current_pems_metadata_014": [
+        72.80830819703074
+      ],
+      "components_v5_current_pems_metadata_015": [
+        73.26192726303539
+      ],
+      "components_v5_current_pems_metadata_018": [
+        70.93550003590535
+      ],
+      "components_v5_current_pems_metadata_019": [
+        73.24120089200129
+      ],
+      "components_v5_current_pems_metadata_020": [
+        70.80601202556437
+      ],
+      "components_v5_current_pems_metadata_022": [
+        72.99821951866782
+      ],
+      "components_v5_current_pems_metadata_023": [
+        73.05381732448396
+      ],
+      "components_v5_current_pems_metadata_024": [
+        70.9805189826924
+      ],
+      "components_v5_current_pems_metadata_025": [
+        72.99826600456511
+      ],
+      "Ridge_l12_none": [
+        73.21172417928531
+      ],
+      "Ridge_l12_daily": [
+        73.24494019579033
+      ],
+      "Ridge_l36_none": [
+        73.13370355206821
+      ],
+      "Ridge_l36_daily": [
+        73.27226678063798
+      ],
+      "Persistence": [
+        94.58682538655447
+      ],
+      "DayWeekAverage": [
+        99.24925359013426
+      ]
+    },
+    "utd19:torino:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        74.53683647491803
+      ],
+      "components_v5_current_pems_metadata_004": [
+        74.43445922274844
+      ],
+      "components_v5_current_pems_metadata_005": [
+        73.37497567041298
+      ],
+      "components_v5_current_pems_metadata_006": [
+        75.10330164716241
+      ],
+      "components_v5_current_pems_metadata_008": [
+        74.54246172206923
+      ],
+      "components_v5_current_pems_metadata_009": [
+        73.412469586037
+      ],
+      "components_v5_current_pems_metadata_011": [
+        73.8714771085446
+      ],
+      "components_v5_current_pems_metadata_013": [
+        74.19275184941097
+      ],
+      "components_v5_current_pems_metadata_014": [
+        74.78598183521044
+      ],
+      "components_v5_current_pems_metadata_015": [
+        75.84579884779035
+      ],
+      "components_v5_current_pems_metadata_018": [
+        73.92224396215433
+      ],
+      "components_v5_current_pems_metadata_019": [
+        74.8132086250432
+      ],
+      "components_v5_current_pems_metadata_020": [
+        74.31684040091224
+      ],
+      "components_v5_current_pems_metadata_022": [
+        74.69528286395327
+      ],
+      "components_v5_current_pems_metadata_023": [
+        74.79401122873821
+      ],
+      "components_v5_current_pems_metadata_024": [
+        73.67099079936659
+      ],
+      "components_v5_current_pems_metadata_025": [
+        74.62590249972776
+      ],
+      "Ridge_l12_none": [
+        74.8206842938541
+      ],
+      "Ridge_l12_daily": [
+        74.89622543589336
+      ],
+      "Ridge_l36_none": [
+        74.7662370800417
+      ],
+      "Ridge_l36_daily": [
+        74.8913208269377
+      ],
+      "Persistence": [
+        109.011731618179
+      ],
+      "DayWeekAverage": [
+        99.56160938657221
+      ]
+    },
+    "utd19:torino:speed:15min": {
+      "components_v5_current_pems_metadata_003": [
+        6.524065497724004
+      ],
+      "components_v5_current_pems_metadata_004": [
+        6.4657043567668575
+      ],
+      "components_v5_current_pems_metadata_005": [
+        6.465395564326496
+      ],
+      "components_v5_current_pems_metadata_006": [
+        6.548654012027584
+      ],
+      "components_v5_current_pems_metadata_008": [
+        6.571020787570548
+      ],
+      "components_v5_current_pems_metadata_009": [
+        6.471692418209772
+      ],
+      "components_v5_current_pems_metadata_011": [
+        6.522418175853151
+      ],
+      "components_v5_current_pems_metadata_013": [
+        6.46875759153444
+      ],
+      "components_v5_current_pems_metadata_014": [
+        6.543719545045268
+      ],
+      "components_v5_current_pems_metadata_015": [
+        6.571403648977128
+      ],
+      "components_v5_current_pems_metadata_018": [
+        6.573825908626788
+      ],
+      "components_v5_current_pems_metadata_019": [
+        6.561931883850241
+      ],
+      "components_v5_current_pems_metadata_020": [
+        6.4889666370623775
+      ],
+      "components_v5_current_pems_metadata_022": [
+        6.5581155429565365
+      ],
+      "components_v5_current_pems_metadata_023": [
+        6.5680117048313145
+      ],
+      "components_v5_current_pems_metadata_024": [
+        6.532451560611502
+      ],
+      "components_v5_current_pems_metadata_025": [
+        6.523336623493472
+      ],
+      "Ridge_l12_none": [
+        6.627847886236761
+      ],
+      "Ridge_l12_daily": [
+        6.631718849003892
+      ],
+      "Ridge_l36_none": [
+        6.618957522922299
+      ],
+      "Ridge_l36_daily": [
+        6.6229777509425976
+      ],
+      "Persistence": [
+        8.651208358118831
+      ],
+      "DayWeekAverage": [
+        8.152961483879492
+      ]
+    },
+    "utd19:torino:speed:60min": {
+      "components_v5_current_pems_metadata_003": [
+        6.637550517038248
+      ],
+      "components_v5_current_pems_metadata_004": [
+        6.598815200160956
+      ],
+      "components_v5_current_pems_metadata_005": [
+        6.586207551854364
+      ],
+      "components_v5_current_pems_metadata_006": [
+        6.714489287487555
+      ],
+      "components_v5_current_pems_metadata_008": [
+        6.665903334952324
+      ],
+      "components_v5_current_pems_metadata_009": [
+        6.610532418939008
+      ],
+      "components_v5_current_pems_metadata_011": [
+        6.622269532913892
+      ],
+      "components_v5_current_pems_metadata_013": [
+        6.592146537284003
+      ],
+      "components_v5_current_pems_metadata_014": [
+        6.631892155142253
+      ],
+      "components_v5_current_pems_metadata_015": [
+        6.690090770886091
+      ],
+      "components_v5_current_pems_metadata_018": [
+        6.676446623704878
+      ],
+      "components_v5_current_pems_metadata_019": [
+        6.653399102282829
+      ],
+      "components_v5_current_pems_metadata_020": [
+        6.620326617887257
+      ],
+      "components_v5_current_pems_metadata_022": [
+        6.6571498017646515
+      ],
+      "components_v5_current_pems_metadata_023": [
+        6.676324436664604
+      ],
+      "components_v5_current_pems_metadata_024": [
+        6.6377677529218975
+      ],
+      "components_v5_current_pems_metadata_025": [
+        6.638610222051713
+      ],
+      "Ridge_l12_none": [
+        6.699382432219912
+      ],
+      "Ridge_l12_daily": [
+        6.701161981045702
+      ],
+      "Ridge_l36_none": [
+        6.694541966820042
+      ],
+      "Ridge_l36_daily": [
+        6.695552473620188
+      ],
+      "Persistence": [
+        8.883352408590477
+      ],
+      "DayWeekAverage": [
+        8.145950243227622
+      ]
+    },
+    "utd19:melbourne:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        30.47854403269114
+      ],
+      "components_v5_current_pems_metadata_004": [
+        30.783006538567108
+      ],
+      "components_v5_current_pems_metadata_005": [
+        31.346798564204764
+      ],
+      "components_v5_current_pems_metadata_006": [
+        31.125403028286
+      ],
+      "components_v5_current_pems_metadata_008": [
+        32.52989550718531
+      ],
+      "components_v5_current_pems_metadata_009": [
+        30.25513854896395
+      ],
+      "components_v5_current_pems_metadata_011": [
+        30.69780541540996
+      ],
+      "components_v5_current_pems_metadata_013": [
+        31.200951442166748
+      ],
+      "components_v5_current_pems_metadata_014": [
+        32.13960459402471
+      ],
+      "components_v5_current_pems_metadata_015": [
+        32.538984471541994
+      ],
+      "components_v5_current_pems_metadata_018": [
+        31.40035440802573
+      ],
+      "components_v5_current_pems_metadata_019": [
+        32.681574213264525
+      ],
+      "components_v5_current_pems_metadata_020": [
+        30.3949658043303
+      ],
+      "components_v5_current_pems_metadata_022": [
+        32.32637458043765
+      ],
+      "components_v5_current_pems_metadata_023": [
+        32.26424488997997
+      ],
+      "components_v5_current_pems_metadata_024": [
+        30.16570135568878
+      ],
+      "components_v5_current_pems_metadata_025": [
+        32.33714116190378
+      ],
+      "Ridge_l12_none": [
+        33.2572225468717
+      ],
+      "Ridge_l12_daily": [
+        32.75928026312771
+      ],
+      "Ridge_l36_none": [
+        32.88729828199061
+      ],
+      "Ridge_l36_daily": [
+        32.5650131576482
+      ],
+      "Persistence": [
+        36.475034903306906
+      ],
+      "DayWeekAverage": [
+        51.625611577955766
+      ]
+    },
+    "utd19:melbourne:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        33.57309532957517
+      ],
+      "components_v5_current_pems_metadata_004": [
+        33.45427752458128
+      ],
+      "components_v5_current_pems_metadata_005": [
+        34.216604166790184
+      ],
+      "components_v5_current_pems_metadata_006": [
+        33.918931135663755
+      ],
+      "components_v5_current_pems_metadata_008": [
+        34.85406180268406
+      ],
+      "components_v5_current_pems_metadata_009": [
+        33.67861104518132
+      ],
+      "components_v5_current_pems_metadata_011": [
+        34.208952017613726
+      ],
+      "components_v5_current_pems_metadata_013": [
+        34.844231301758164
+      ],
+      "components_v5_current_pems_metadata_014": [
+        34.25360789090308
+      ],
+      "components_v5_current_pems_metadata_015": [
+        33.99194997395025
+      ],
+      "components_v5_current_pems_metadata_018": [
+        33.99928404417803
+      ],
+      "components_v5_current_pems_metadata_019": [
+        34.80538072597569
+      ],
+      "components_v5_current_pems_metadata_020": [
+        32.76435362552632
+      ],
+      "components_v5_current_pems_metadata_022": [
+        34.95674322412306
+      ],
+      "components_v5_current_pems_metadata_023": [
+        34.98316501165422
+      ],
+      "components_v5_current_pems_metadata_024": [
+        33.63286831739361
+      ],
+      "components_v5_current_pems_metadata_025": [
+        34.52029030575232
+      ],
+      "Ridge_l12_none": [
+        35.34543111773654
+      ],
+      "Ridge_l12_daily": [
+        35.08651638596308
+      ],
+      "Ridge_l36_none": [
+        35.17610045665189
+      ],
+      "Ridge_l36_daily": [
+        34.952076629701835
+      ],
+      "Persistence": [
+        45.69999146727099
+      ],
+      "DayWeekAverage": [
+        51.37004899218051
+      ]
+    },
+    "utd19v53:hamburg:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        60.69898827803038
+      ],
+      "components_v5_current_pems_metadata_004": [
+        60.00873985813867
+      ],
+      "components_v5_current_pems_metadata_005": [
+        59.571631611659726
+      ],
+      "components_v5_current_pems_metadata_006": [
+        60.01720172087978
+      ],
+      "components_v5_current_pems_metadata_008": [
+        60.957684916687
+      ],
+      "components_v5_current_pems_metadata_009": [
+        60.157790020023675
+      ],
+      "components_v5_current_pems_metadata_011": [
+        60.23644679256427
+      ],
+      "components_v5_current_pems_metadata_013": [
+        59.956524440987856
+      ],
+      "components_v5_current_pems_metadata_014": [
+        60.627415236118566
+      ],
+      "components_v5_current_pems_metadata_015": [
+        60.73054813396359
+      ],
+      "components_v5_current_pems_metadata_018": [
+        60.052250057295204
+      ],
+      "components_v5_current_pems_metadata_019": [
+        61.32312522998088
+      ],
+      "components_v5_current_pems_metadata_020": [
+        59.927824302838005
+      ],
+      "components_v5_current_pems_metadata_022": [
+        61.31434595974094
+      ],
+      "components_v5_current_pems_metadata_023": [
+        61.19816465121828
+      ],
+      "components_v5_current_pems_metadata_024": [
+        60.25268095603321
+      ],
+      "components_v5_current_pems_metadata_025": [
+        61.277910022560114
+      ],
+      "Ridge_l12_none": [
+        61.45558339578712
+      ],
+      "Ridge_l12_daily": [
+        61.14919919753049
+      ],
+      "Ridge_l36_none": [
+        61.27884440573066
+      ],
+      "Ridge_l36_daily": [
+        61.09293612728786
+      ],
+      "Persistence": [
+        77.76069640583208
+      ],
+      "DayWeekAverage": [
+        79.60850663380594
+      ]
+    },
+    "utd19v53:hamburg:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        63.416071661442196
+      ],
+      "components_v5_current_pems_metadata_004": [
+        62.885429458010876
+      ],
+      "components_v5_current_pems_metadata_005": [
+        62.19806727048532
+      ],
+      "components_v5_current_pems_metadata_006": [
+        62.94782598372664
+      ],
+      "components_v5_current_pems_metadata_008": [
+        63.78672946801848
+      ],
+      "components_v5_current_pems_metadata_009": [
+        62.8953467258552
+      ],
+      "components_v5_current_pems_metadata_011": [
+        63.03582590398811
+      ],
+      "components_v5_current_pems_metadata_013": [
+        62.69446761062219
+      ],
+      "components_v5_current_pems_metadata_014": [
+        63.47251500603948
+      ],
+      "components_v5_current_pems_metadata_015": [
+        63.66884581317001
+      ],
+      "components_v5_current_pems_metadata_018": [
+        63.05864131933573
+      ],
+      "components_v5_current_pems_metadata_019": [
+        64.16775154462249
+      ],
+      "components_v5_current_pems_metadata_020": [
+        63.07291286092348
+      ],
+      "components_v5_current_pems_metadata_022": [
+        64.04725419273639
+      ],
+      "components_v5_current_pems_metadata_023": [
+        64.02313706895394
+      ],
+      "components_v5_current_pems_metadata_024": [
+        63.262655583915034
+      ],
+      "components_v5_current_pems_metadata_025": [
+        63.98547768991294
+      ],
+      "Ridge_l12_none": [
+        64.0789773266629
+      ],
+      "Ridge_l12_daily": [
+        63.82070443410887
+      ],
+      "Ridge_l36_none": [
+        63.983992713952
+      ],
+      "Ridge_l36_daily": [
+        63.80707413236469
+      ],
+      "Persistence": [
+        85.2811993822911
+      ],
+      "DayWeekAverage": [
+        79.6663282582837
+      ]
+    },
+    "utd19v53:luzern:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        66.24411208690009
+      ],
+      "components_v5_current_pems_metadata_004": [
+        65.86412961070539
+      ],
+      "components_v5_current_pems_metadata_005": [
+        64.92880600855688
+      ],
+      "components_v5_current_pems_metadata_006": [
+        65.98028072091688
+      ],
+      "components_v5_current_pems_metadata_008": [
+        67.34428896637016
+      ],
+      "components_v5_current_pems_metadata_009": [
+        65.18910228973863
+      ],
+      "components_v5_current_pems_metadata_011": [
+        65.16888067143532
+      ],
+      "components_v5_current_pems_metadata_013": [
+        66.21731157510722
+      ],
+      "components_v5_current_pems_metadata_014": [
+        67.29593910347013
+      ],
+      "components_v5_current_pems_metadata_015": [
+        66.9370666117224
+      ],
+      "components_v5_current_pems_metadata_018": [
+        66.36407672328083
+      ],
+      "components_v5_current_pems_metadata_019": [
+        67.59966037319784
+      ],
+      "components_v5_current_pems_metadata_020": [
+        65.59873120359137
+      ],
+      "components_v5_current_pems_metadata_022": [
+        67.60082004614647
+      ],
+      "components_v5_current_pems_metadata_023": [
+        67.70352134629078
+      ],
+      "components_v5_current_pems_metadata_024": [
+        65.79761877600002
+      ],
+      "components_v5_current_pems_metadata_025": [
+        67.56992741421742
+      ],
+      "Ridge_l12_none": [
+        68.19662756585495
+      ],
+      "Ridge_l12_daily": [
+        67.83098554428364
+      ],
+      "Ridge_l36_none": [
+        67.98860441674988
+      ],
+      "Ridge_l36_daily": [
+        67.72491874819744
+      ],
+      "Persistence": [
+        87.74439419486635
+      ],
+      "DayWeekAverage": [
+        84.97239721428792
+      ]
+    },
+    "utd19v53:luzern:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        67.85681252394609
+      ],
+      "components_v5_current_pems_metadata_004": [
+        67.54024505926563
+      ],
+      "components_v5_current_pems_metadata_005": [
+        65.99781191541094
+      ],
+      "components_v5_current_pems_metadata_006": [
+        68.02106871599044
+      ],
+      "components_v5_current_pems_metadata_008": [
+        68.9620913706911
+      ],
+      "components_v5_current_pems_metadata_009": [
+        66.70392187585993
+      ],
+      "components_v5_current_pems_metadata_011": [
+        66.80919394361246
+      ],
+      "components_v5_current_pems_metadata_013": [
+        68.33177735481581
+      ],
+      "components_v5_current_pems_metadata_014": [
+        68.71906804392988
+      ],
+      "components_v5_current_pems_metadata_015": [
+        68.65671778591967
+      ],
+      "components_v5_current_pems_metadata_018": [
+        68.49486549695894
+      ],
+      "components_v5_current_pems_metadata_019": [
+        69.08807829361922
+      ],
+      "components_v5_current_pems_metadata_020": [
+        67.69156321809496
+      ],
+      "components_v5_current_pems_metadata_022": [
+        69.38361869249489
+      ],
+      "components_v5_current_pems_metadata_023": [
+        69.44061830964466
+      ],
+      "components_v5_current_pems_metadata_024": [
+        67.79906672578866
+      ],
+      "components_v5_current_pems_metadata_025": [
+        69.2726284614681
+      ],
+      "Ridge_l12_none": [
+        70.10997712158941
+      ],
+      "Ridge_l12_daily": [
+        69.84249322409147
+      ],
+      "Ridge_l36_none": [
+        69.98859406996849
+      ],
+      "Ridge_l36_daily": [
+        69.76804046096449
+      ],
+      "Persistence": [
+        98.32317981405335
+      ],
+      "DayWeekAverage": [
+        84.9579290857497
+      ]
+    },
+    "D01:flow:15": {
+      "DayWeekAverage": [
+        6.0191607773279,
+        6.0191607773279,
+        6.0191607773279
+      ],
+      "Persistence": [
+        5.4031746031746035,
+        5.4031746031746035,
+        5.4031746031746035
+      ],
+      "Ridge_l12_daily": [
+        4.700021017866092,
+        4.700021017866092,
+        4.700021017866092
+      ],
+      "Ridge_l12_none": [
+        4.837572150619518,
+        4.837572150619518,
+        4.837572150619518
+      ],
+      "Ridge_l36_daily": [
+        4.713821324116958,
+        4.713821324116958,
+        4.713821324116958
+      ],
+      "Ridge_l36_none": [
+        4.75187108553432,
+        4.75187108553432,
+        4.75187108553432
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.490883252514152,
+        4.44526884783562,
+        4.466012839798524
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.434006433459999,
+        4.434295115088173,
+        4.411895932426459
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.3259929553064325,
+        4.315779967993909,
+        4.3299070699772
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.376299399926617,
+        4.38110445110648,
+        4.3854733309608305
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.594628210006798,
+        4.586252240958259,
+        4.607562519170579
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.2987259208424105,
+        4.301402756562671,
+        4.295575099921909
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.46788016414305,
+        4.449195570843888,
+        4.491580825438212
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.548390663599479,
+        4.54373854052627,
+        4.568703674273916
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.561018264389074,
+        4.562403530495679,
+        4.569024661950706
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.72356984282939,
+        4.778175768271365,
+        4.717731122714181
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.538711135953536,
+        4.554284953989922,
+        4.5441528086908605
+      ],
+      "components_v5_current_pems_metadata_019": [
+        4.73009699180686,
+        4.732913668871883,
+        4.714556670819332
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.374086789178716,
+        4.396995505170815,
+        4.386923687218979
+      ],
+      "components_v5_current_pems_metadata_022": [
+        4.688214700270401,
+        4.715328329270239,
+        4.676859940331113
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.708193507734932,
+        4.694359598291916,
+        4.680823480645555
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.450612201329913,
+        4.486042952413704,
+        4.3964356633709825
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.6775257968568456,
+        4.6801647193584754,
+        4.672458889388571
+      ]
+    },
+    "D01:flow:60": {
+      "DayWeekAverage": [
+        6.019547735593198,
+        6.019547735593198,
+        6.019547735593198
+      ],
+      "Persistence": [
+        6.532430075793145,
+        6.532430075793145,
+        6.532430075793145
+      ],
+      "Ridge_l12_daily": [
+        5.058223955836056,
+        5.058223955836056,
+        5.058223955836056
+      ],
+      "Ridge_l12_none": [
+        5.1616855150929295,
+        5.1616855150929295,
+        5.1616855150929295
+      ],
+      "Ridge_l36_daily": [
+        5.073948204529147,
+        5.073948204529147,
+        5.073948204529147
+      ],
+      "Ridge_l36_none": [
+        5.089899854003636,
+        5.089899854003636,
+        5.089899854003636
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.764496088160664,
+        4.78073576119196,
+        4.774920731504855
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.666065797660652,
+        4.685801827287017,
+        4.666062653817422
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.434050164619385,
+        4.506373935902781,
+        4.416608493790215
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.719278368645195,
+        4.746645718342176,
+        4.721903214630441
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.934345099667256,
+        4.965926539798691,
+        4.942181385155264
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.5319932791089785,
+        4.5138713194372695,
+        4.492491688235184
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.624440345687268,
+        4.586047249726772,
+        4.622030817234325
+      ],
+      "components_v5_current_pems_metadata_013": [
+        5.012615216355664,
+        4.95074910757619,
+        4.911162197914612
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.88517345545322,
+        4.874015741686516,
+        4.885584184863559
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.90531431753266,
+        4.869054172754182,
+        4.888010460154366
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.908307549790278,
+        4.900449447339204,
+        4.901078383761583
+      ],
+      "components_v5_current_pems_metadata_019": [
+        5.0661775058204235,
+        5.071990171589099,
+        5.06871511331296
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.630311835810506,
+        4.631012311380228,
+        4.628010542196001
+      ],
+      "components_v5_current_pems_metadata_022": [
+        5.053374955668774,
+        5.065982988357792,
+        5.036710496500455
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.986096842700979,
+        5.039737810322666,
+        5.034621687168142
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.733228738543103,
+        4.829743757129538,
+        4.775082315438553
+      ],
+      "components_v5_current_pems_metadata_025": [
+        5.022108326298596,
+        5.023098433840799,
+        5.03244931913696
+      ]
+    },
+    "D02:flow:15": {
+      "DayWeekAverage": [
+        6.0516288020228775,
+        6.0516288020228775,
+        6.0516288020228775
+      ],
+      "Persistence": [
+        5.374272117288877,
+        5.374272117288877,
+        5.374272117288877
+      ],
+      "Ridge_l12_daily": [
+        4.668248306545535,
+        4.668248306545535,
+        4.668248306545535
+      ],
+      "Ridge_l12_none": [
+        4.784437166976072,
+        4.784437166976072,
+        4.784437166976072
+      ],
+      "Ridge_l36_daily": [
+        4.665020926268787,
+        4.665020926268787,
+        4.665020926268787
+      ],
+      "Ridge_l36_none": [
+        4.7013942685772845,
+        4.7013942685772845,
+        4.7013942685772845
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.360187065779331,
+        4.35514593481969,
+        4.339987136275152
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.2728503348637625,
+        4.279261226909487,
+        4.270262149104779
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.217401170178843,
+        4.2479444170272265,
+        4.301997533751672
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.279555941328385,
+        4.275500869311654,
+        4.287009463872883
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.526842091812961,
+        4.535840351019003,
+        4.541700319571102
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.223956020092531,
+        4.233550118737847,
+        4.2255120862730395
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.327270959838136,
+        4.293141711644754,
+        4.310750405828746
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.386335272049879,
+        4.4207592615984135,
+        4.493385422107047
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.544017104972794,
+        4.551291850920286,
+        4.537464139915895
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.63549294365103,
+        4.685016293625064,
+        4.623916962530701
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.4699384750441045,
+        4.464512429355616,
+        4.475475754239462
+      ],
+      "components_v5_current_pems_metadata_019": [
+        4.673483285966265,
+        4.69399867735103,
+        4.681709046259186
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.3252134709445045,
+        4.3099234284580925,
+        4.312971070451629
+      ],
+      "components_v5_current_pems_metadata_022": [
+        4.607667613027018,
+        4.659272371631665,
+        4.637795151934052
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.626741495799137,
+        4.627910935920724,
+        4.672551390205085
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.370948500588087,
+        4.406531137384101,
+        4.360330697391727
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.629491293145939,
+        4.643738454607936,
+        4.615567393467956
+      ]
+    },
+    "D02:flow:60": {
+      "DayWeekAverage": [
+        6.050744766078217,
+        6.050744766078217,
+        6.050744766078217
+      ],
+      "Persistence": [
+        6.6177031159966315,
+        6.6177031159966315,
+        6.6177031159966315
+      ],
+      "Ridge_l12_daily": [
+        5.071628714230035,
+        5.071628714230035,
+        5.071628714230035
+      ],
+      "Ridge_l12_none": [
+        5.161419097812714,
+        5.161419097812714,
+        5.161419097812714
+      ],
+      "Ridge_l36_daily": [
+        5.069968933679373,
+        5.069968933679373,
+        5.069968933679373
+      ],
+      "Ridge_l36_none": [
+        5.101638232982395,
+        5.101638232982395,
+        5.101638232982395
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.711029550130259,
+        4.692145887223304,
+        4.657760434215876
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.5447421637889285,
+        4.599877385355877,
+        4.547408659041002
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.37509329952005,
+        4.550145528269174,
+        4.390879661963983
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.672832886183159,
+        4.6657516905067276,
+        4.707711071697426
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.902081686266469,
+        4.912509902577541,
+        4.903821604207372
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.529746230328833,
+        4.530557477905963,
+        4.530128641052923
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.5542161612758845,
+        4.545142542717046,
+        4.581385588591099
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.907860212470808,
+        4.880291914759303,
+        4.863166971401906
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.904587839873378,
+        4.900554333331203,
+        4.894001479168568
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.786689058261577,
+        4.801005470451426,
+        4.808716190092102
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.842204523175947,
+        4.8534164119335745,
+        4.851989234192107
+      ],
+      "components_v5_current_pems_metadata_019": [
+        5.054346114705662,
+        5.0423763051863,
+        5.034573646962653
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.618815695033581,
+        4.622514477188995,
+        4.647603807577526
+      ],
+      "components_v5_current_pems_metadata_022": [
+        5.036296599796697,
+        5.051860528568485,
+        5.032929375827306
+      ],
+      "components_v5_current_pems_metadata_023": [
+        5.005973874971045,
+        5.020230595661664,
+        5.0007954089560975
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.755746765490412,
+        4.793731629777318,
+        4.761116411462892
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.9750140513081345,
+        5.039763969480612,
+        5.029438727878887
+      ]
+    }
+  },
+  "early": {
+    "utd19:essen:flow:60min": {
+      "components_v5_current_pems_metadata_004": [
+        33.814169917643845
+      ],
+      "Ridge_l12_none": [
+        34.93749947714485
+      ],
+      "Ridge_l12_daily": [
+        34.88978918586307
+      ],
+      "Ridge_l36_none": [
+        34.734339106945114
+      ],
+      "Ridge_l36_daily": [
+        34.667171478039286
+      ],
+      "Persistence": [
+        49.81863437241138
+      ],
+      "DayWeekAverage": [
+        55.58863106131102
+      ],
+      "components_v5_current_pems_metadata_003": [
+        33.93451312497776
+      ],
+      "components_v5_current_pems_metadata_005": [
+        33.32038716328794
+      ],
+      "components_v5_current_pems_metadata_006": [
+        34.214938292495475
+      ],
+      "components_v5_current_pems_metadata_008": [
+        34.60859040934907
+      ],
+      "components_v5_current_pems_metadata_009": [
+        33.555028512400526
+      ],
+      "components_v5_current_pems_metadata_011": [
+        34.09729529635918
+      ],
+      "components_v5_current_pems_metadata_013": [
+        34.10671555740936
+      ],
+      "components_v5_current_pems_metadata_014": [
+        33.884068489338766
+      ],
+      "components_v5_current_pems_metadata_015": [
+        34.50267997555326
+      ],
+      "components_v5_current_pems_metadata_018": [
+        33.881838730791486
+      ],
+      "components_v5_current_pems_metadata_019": [
+        34.6786617587173
+      ],
+      "components_v5_current_pems_metadata_020": [
+        33.678880495105496
+      ],
+      "components_v5_current_pems_metadata_022": [
+        34.74601583492035
+      ],
+      "components_v5_current_pems_metadata_023": [
+        34.79337396525505
+      ],
+      "components_v5_current_pems_metadata_024": [
+        34.194976604773395
+      ],
+      "components_v5_current_pems_metadata_025": [
+        34.70240727502132
+      ]
+    },
+    "utd19:essen:flow:15min": {
+      "components_v5_current_pems_metadata_004": [
+        32.537806237153255
+      ],
+      "Ridge_l12_none": [
+        33.83291033767183
+      ],
+      "Ridge_l12_daily": [
+        33.73614800135576
+      ],
+      "Ridge_l36_none": [
+        33.49055267067659
+      ],
+      "Ridge_l36_daily": [
+        33.42355857608804
+      ],
+      "Persistence": [
+        42.35587198287751
+      ],
+      "DayWeekAverage": [
+        55.284064035128125
+      ],
+      "components_v5_current_pems_metadata_003": [
+        32.80758619842535
+      ],
+      "components_v5_current_pems_metadata_005": [
+        32.183027722478485
+      ],
+      "components_v5_current_pems_metadata_006": [
+        32.84779405935714
+      ],
+      "components_v5_current_pems_metadata_008": [
+        33.50230383255505
+      ],
+      "components_v5_current_pems_metadata_009": [
+        32.324304472699374
+      ],
+      "components_v5_current_pems_metadata_011": [
+        32.36304851456254
+      ],
+      "components_v5_current_pems_metadata_013": [
+        32.56388302471359
+      ],
+      "components_v5_current_pems_metadata_014": [
+        33.008376635387314
+      ],
+      "components_v5_current_pems_metadata_015": [
+        33.125723823714345
+      ],
+      "components_v5_current_pems_metadata_018": [
+        32.508887657743884
+      ],
+      "components_v5_current_pems_metadata_019": [
+        33.84317955496609
+      ],
+      "components_v5_current_pems_metadata_020": [
+        32.20945566007837
+      ],
+      "components_v5_current_pems_metadata_022": [
+        33.71914858557306
+      ],
+      "components_v5_current_pems_metadata_023": [
+        33.74895381076766
+      ],
+      "components_v5_current_pems_metadata_024": [
+        32.66953652398814
+      ],
+      "components_v5_current_pems_metadata_025": [
+        33.704682995189536
+      ]
+    },
+    "utd19:essen:speed:60min": {
+      "components_v5_current_pems_metadata_004": [
+        3.5431784625367198
+      ],
+      "Ridge_l12_none": [
+        3.6238218734853582
+      ],
+      "Ridge_l12_daily": [
+        3.6176765209325388
+      ],
+      "Ridge_l36_none": [
+        3.622229612867459
+      ],
+      "Ridge_l36_daily": [
+        3.615871824767216
+      ],
+      "Persistence": [
+        4.638954899075672
+      ],
+      "DayWeekAverage": [
+        4.60771714757436
+      ],
+      "components_v5_current_pems_metadata_003": [
+        3.5196277649129697
+      ],
+      "components_v5_current_pems_metadata_005": [
+        3.4943282482950573
+      ],
+      "components_v5_current_pems_metadata_006": [
+        3.5777812947934295
+      ],
+      "components_v5_current_pems_metadata_008": [
+        3.60879974663848
+      ],
+      "components_v5_current_pems_metadata_009": [
+        3.512234856454516
+      ],
+      "components_v5_current_pems_metadata_011": [
+        3.552734331952386
+      ],
+      "components_v5_current_pems_metadata_013": [
+        3.5791327743687833
+      ],
+      "components_v5_current_pems_metadata_014": [
+        3.5913776378092908
+      ],
+      "components_v5_current_pems_metadata_015": [
+        3.5644834667277996
+      ],
+      "components_v5_current_pems_metadata_018": [
+        3.619519619199499
+      ],
+      "components_v5_current_pems_metadata_019": [
+        3.5797249993328033
+      ],
+      "components_v5_current_pems_metadata_020": [
+        3.5503073120704833
+      ],
+      "components_v5_current_pems_metadata_022": [
+        3.5959701713274335
+      ],
+      "components_v5_current_pems_metadata_023": [
+        3.584520797980984
+      ],
+      "components_v5_current_pems_metadata_024": [
+        3.5620031894130455
+      ],
+      "components_v5_current_pems_metadata_025": [
+        3.593437566374409
+      ]
+    },
+    "utd19:essen:speed:15min": {
+      "components_v5_current_pems_metadata_004": [
+        3.3837400386414247
+      ],
+      "Ridge_l12_none": [
+        3.467596250823113
+      ],
+      "Ridge_l12_daily": [
+        3.4640255289573725
+      ],
+      "Ridge_l36_none": [
+        3.4661526821337247
+      ],
+      "Ridge_l36_daily": [
+        3.46219628676113
+      ],
+      "Persistence": [
+        4.276385227260243
+      ],
+      "DayWeekAverage": [
+        4.618196761772396
+      ],
+      "components_v5_current_pems_metadata_003": [
+        3.370509257844747
+      ],
+      "components_v5_current_pems_metadata_005": [
+        3.3553293189395497
+      ],
+      "components_v5_current_pems_metadata_006": [
+        3.4249574427450713
+      ],
+      "components_v5_current_pems_metadata_008": [
+        3.443482173213279
+      ],
+      "components_v5_current_pems_metadata_009": [
+        3.3499190516923236
+      ],
+      "components_v5_current_pems_metadata_011": [
+        3.392837943357139
+      ],
+      "components_v5_current_pems_metadata_013": [
+        3.4026074981168235
+      ],
+      "components_v5_current_pems_metadata_014": [
+        3.4321369455554516
+      ],
+      "components_v5_current_pems_metadata_015": [
+        3.3935572244877457
+      ],
+      "components_v5_current_pems_metadata_018": [
+        3.45034862813444
+      ],
+      "components_v5_current_pems_metadata_019": [
+        3.4115420823361844
+      ],
+      "components_v5_current_pems_metadata_020": [
+        3.3626501697902245
+      ],
+      "components_v5_current_pems_metadata_022": [
+        3.4303060163088412
+      ],
+      "components_v5_current_pems_metadata_023": [
+        3.415508935214365
+      ],
+      "components_v5_current_pems_metadata_024": [
+        3.394847240871564
+      ],
+      "components_v5_current_pems_metadata_025": [
+        3.4234784937008573
+      ]
+    },
+    "utd19:bremen:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        59.124096108142325
+      ],
+      "components_v5_current_pems_metadata_004": [
+        58.735921462335384
+      ],
+      "components_v5_current_pems_metadata_005": [
+        58.454240530084235
+      ],
+      "components_v5_current_pems_metadata_006": [
+        59.03210109424528
+      ],
+      "components_v5_current_pems_metadata_008": [
+        59.19641411496028
+      ],
+      "components_v5_current_pems_metadata_009": [
+        58.6239072973876
+      ],
+      "components_v5_current_pems_metadata_011": [
+        58.666938379265375
+      ],
+      "components_v5_current_pems_metadata_013": [
+        58.62363298448031
+      ],
+      "components_v5_current_pems_metadata_014": [
+        59.27532865147111
+      ],
+      "components_v5_current_pems_metadata_015": [
+        59.126599615661966
+      ],
+      "components_v5_current_pems_metadata_018": [
+        58.66583062698526
+      ],
+      "components_v5_current_pems_metadata_019": [
+        59.444341252890645
+      ],
+      "components_v5_current_pems_metadata_020": [
+        58.68810827572263
+      ],
+      "components_v5_current_pems_metadata_022": [
+        59.461619873918366
+      ],
+      "components_v5_current_pems_metadata_023": [
+        59.39543383506729
+      ],
+      "components_v5_current_pems_metadata_024": [
+        58.708812980517486
+      ],
+      "components_v5_current_pems_metadata_025": [
+        59.44948676494232
+      ],
+      "Ridge_l12_none": [
+        59.48760215829926
+      ],
+      "Ridge_l12_daily": [
+        59.11628934098183
+      ],
+      "Ridge_l36_none": [
+        59.35797246019716
+      ],
+      "Ridge_l36_daily": [
+        59.06563402847827
+      ],
+      "Persistence": [
+        78.91346284792705
+      ],
+      "DayWeekAverage": [
+        69.1283755236934
+      ]
+    },
+    "utd19:bremen:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        60.38264078641705
+      ],
+      "components_v5_current_pems_metadata_004": [
+        59.8013720594955
+      ],
+      "components_v5_current_pems_metadata_005": [
+        59.669234330894135
+      ],
+      "components_v5_current_pems_metadata_006": [
+        60.254151117571475
+      ],
+      "components_v5_current_pems_metadata_008": [
+        59.94614593922275
+      ],
+      "components_v5_current_pems_metadata_009": [
+        59.468537233927954
+      ],
+      "components_v5_current_pems_metadata_011": [
+        59.732086881336684
+      ],
+      "components_v5_current_pems_metadata_013": [
+        59.83355764021581
+      ],
+      "components_v5_current_pems_metadata_014": [
+        60.21481987654881
+      ],
+      "components_v5_current_pems_metadata_015": [
+        60.12107427211362
+      ],
+      "components_v5_current_pems_metadata_018": [
+        59.87625759146808
+      ],
+      "components_v5_current_pems_metadata_019": [
+        59.99586565901425
+      ],
+      "components_v5_current_pems_metadata_020": [
+        59.951495648722535
+      ],
+      "components_v5_current_pems_metadata_022": [
+        60.02123466067124
+      ],
+      "components_v5_current_pems_metadata_023": [
+        59.975580724276746
+      ],
+      "components_v5_current_pems_metadata_024": [
+        59.79425489748205
+      ],
+      "components_v5_current_pems_metadata_025": [
+        60.012352778418915
+      ],
+      "Ridge_l12_none": [
+        60.03316341117995
+      ],
+      "Ridge_l12_daily": [
+        59.81578295678379
+      ],
+      "Ridge_l36_none": [
+        59.9637568094396
+      ],
+      "Ridge_l36_daily": [
+        59.801334628793605
+      ],
+      "Persistence": [
+        86.90896847486951
+      ],
+      "DayWeekAverage": [
+        69.454205714203
+      ]
+    },
+    "utd19:torino:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        76.35437890597565
+      ],
+      "components_v5_current_pems_metadata_004": [
+        74.68991475301279
+      ],
+      "components_v5_current_pems_metadata_005": [
+        74.8266704440555
+      ],
+      "components_v5_current_pems_metadata_006": [
+        75.80961596870381
+      ],
+      "components_v5_current_pems_metadata_008": [
+        77.27415119132193
+      ],
+      "components_v5_current_pems_metadata_009": [
+        75.69256143284399
+      ],
+      "components_v5_current_pems_metadata_011": [
+        75.28795327490192
+      ],
+      "components_v5_current_pems_metadata_013": [
+        75.85986217932732
+      ],
+      "components_v5_current_pems_metadata_014": [
+        77.33280311160445
+      ],
+      "components_v5_current_pems_metadata_015": [
+        76.68836501990688
+      ],
+      "components_v5_current_pems_metadata_018": [
+        75.46799763364459
+      ],
+      "components_v5_current_pems_metadata_019": [
+        77.62260435410712
+      ],
+      "components_v5_current_pems_metadata_020": [
+        74.9865360499384
+      ],
+      "components_v5_current_pems_metadata_022": [
+        77.21657051477692
+      ],
+      "components_v5_current_pems_metadata_023": [
+        77.36029177198223
+      ],
+      "components_v5_current_pems_metadata_024": [
+        75.83983841437316
+      ],
+      "components_v5_current_pems_metadata_025": [
+        77.22077656417771
+      ],
+      "Ridge_l12_none": [
+        77.94558990501571
+      ],
+      "Ridge_l12_daily": [
+        77.6140379312803
+      ],
+      "Ridge_l36_none": [
+        77.80235879381918
+      ],
+      "Ridge_l36_daily": [
+        77.48747708000374
+      ],
+      "Persistence": [
+        102.21203317037026
+      ],
+      "DayWeekAverage": [
+        89.30366903251637
+      ]
+    },
+    "utd19:torino:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        78.72782181784861
+      ],
+      "components_v5_current_pems_metadata_004": [
+        77.47566695382199
+      ],
+      "components_v5_current_pems_metadata_005": [
+        77.06428389313994
+      ],
+      "components_v5_current_pems_metadata_006": [
+        79.17438293205547
+      ],
+      "components_v5_current_pems_metadata_008": [
+        78.63812293238232
+      ],
+      "components_v5_current_pems_metadata_009": [
+        78.03684178083046
+      ],
+      "components_v5_current_pems_metadata_011": [
+        77.54467187381918
+      ],
+      "components_v5_current_pems_metadata_013": [
+        78.18046512744634
+      ],
+      "components_v5_current_pems_metadata_014": [
+        78.8414905872459
+      ],
+      "components_v5_current_pems_metadata_015": [
+        78.95756018657696
+      ],
+      "components_v5_current_pems_metadata_018": [
+        77.85369729715059
+      ],
+      "components_v5_current_pems_metadata_019": [
+        78.6561719037264
+      ],
+      "components_v5_current_pems_metadata_020": [
+        78.10455072067562
+      ],
+      "components_v5_current_pems_metadata_022": [
+        78.66077451940504
+      ],
+      "components_v5_current_pems_metadata_023": [
+        78.75213492922633
+      ],
+      "components_v5_current_pems_metadata_024": [
+        78.17073699476305
+      ],
+      "components_v5_current_pems_metadata_025": [
+        78.64596142728129
+      ],
+      "Ridge_l12_none": [
+        78.905068418444
+      ],
+      "Ridge_l12_daily": [
+        78.8012740353535
+      ],
+      "Ridge_l36_none": [
+        78.81379240940157
+      ],
+      "Ridge_l36_daily": [
+        78.7106386069911
+      ],
+      "Persistence": [
+        124.4169707731369
+      ],
+      "DayWeekAverage": [
+        89.61444858601281
+      ]
+    },
+    "utd19:torino:speed:15min": {
+      "components_v5_current_pems_metadata_003": [
+        7.36869025269487
+      ],
+      "components_v5_current_pems_metadata_004": [
+        7.303071038886466
+      ],
+      "components_v5_current_pems_metadata_005": [
+        7.254316141799487
+      ],
+      "components_v5_current_pems_metadata_006": [
+        7.372746705997515
+      ],
+      "components_v5_current_pems_metadata_008": [
+        7.475583441727003
+      ],
+      "components_v5_current_pems_metadata_009": [
+        7.276003070851055
+      ],
+      "components_v5_current_pems_metadata_011": [
+        7.3653317447333455
+      ],
+      "components_v5_current_pems_metadata_013": [
+        7.298237541460279
+      ],
+      "components_v5_current_pems_metadata_014": [
+        7.423018564623002
+      ],
+      "components_v5_current_pems_metadata_015": [
+        7.404756281181906
+      ],
+      "components_v5_current_pems_metadata_018": [
+        7.443153836766453
+      ],
+      "components_v5_current_pems_metadata_019": [
+        7.424233177753195
+      ],
+      "components_v5_current_pems_metadata_020": [
+        7.299734709027858
+      ],
+      "components_v5_current_pems_metadata_022": [
+        7.434590217213367
+      ],
+      "components_v5_current_pems_metadata_023": [
+        7.446077602075769
+      ],
+      "components_v5_current_pems_metadata_024": [
+        7.389571678619281
+      ],
+      "components_v5_current_pems_metadata_025": [
+        7.399959902018239
+      ],
+      "Ridge_l12_none": [
+        7.5292480066014855
+      ],
+      "Ridge_l12_daily": [
+        7.517529478320574
+      ],
+      "Ridge_l36_none": [
+        7.526018425814802
+      ],
+      "Ridge_l36_daily": [
+        7.514926691982356
+      ],
+      "Persistence": [
+        9.76042876096805
+      ],
+      "DayWeekAverage": [
+        8.940286814240807
+      ]
+    },
+    "utd19:torino:speed:60min": {
+      "components_v5_current_pems_metadata_003": [
+        7.524521773056171
+      ],
+      "components_v5_current_pems_metadata_004": [
+        7.465603938757041
+      ],
+      "components_v5_current_pems_metadata_005": [
+        7.36567492357337
+      ],
+      "components_v5_current_pems_metadata_006": [
+        7.531055925040823
+      ],
+      "components_v5_current_pems_metadata_008": [
+        7.565732282675128
+      ],
+      "components_v5_current_pems_metadata_009": [
+        7.398367624333835
+      ],
+      "components_v5_current_pems_metadata_011": [
+        7.491497459710126
+      ],
+      "components_v5_current_pems_metadata_013": [
+        7.4401092959969235
+      ],
+      "components_v5_current_pems_metadata_014": [
+        7.505950502069806
+      ],
+      "components_v5_current_pems_metadata_015": [
+        7.542059647904614
+      ],
+      "components_v5_current_pems_metadata_018": [
+        7.552873985714165
+      ],
+      "components_v5_current_pems_metadata_019": [
+        7.541296541527939
+      ],
+      "components_v5_current_pems_metadata_020": [
+        7.494896311597949
+      ],
+      "components_v5_current_pems_metadata_022": [
+        7.554539048092261
+      ],
+      "components_v5_current_pems_metadata_023": [
+        7.566034544971419
+      ],
+      "components_v5_current_pems_metadata_024": [
+        7.518469604104659
+      ],
+      "components_v5_current_pems_metadata_025": [
+        7.5410762156178945
+      ],
+      "Ridge_l12_none": [
+        7.59251344556038
+      ],
+      "Ridge_l12_daily": [
+        7.581742056670395
+      ],
+      "Ridge_l36_none": [
+        7.589955952001712
+      ],
+      "Ridge_l36_daily": [
+        7.579326873213799
+      ],
+      "Persistence": [
+        10.134085564448746
+      ],
+      "DayWeekAverage": [
+        8.92461315386024
+      ]
+    },
+    "utd19:melbourne:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        33.759964730134286
+      ],
+      "components_v5_current_pems_metadata_004": [
+        35.685468956881614
+      ],
+      "components_v5_current_pems_metadata_005": [
+        34.69073283860993
+      ],
+      "components_v5_current_pems_metadata_006": [
+        33.985024014680114
+      ],
+      "components_v5_current_pems_metadata_008": [
+        34.7041166380369
+      ],
+      "components_v5_current_pems_metadata_009": [
+        33.823639079029476
+      ],
+      "components_v5_current_pems_metadata_011": [
+        35.31200986535387
+      ],
+      "components_v5_current_pems_metadata_013": [
+        34.31721894926226
+      ],
+      "components_v5_current_pems_metadata_014": [
+        35.395513773985506
+      ],
+      "components_v5_current_pems_metadata_015": [
+        37.78916707036845
+      ],
+      "components_v5_current_pems_metadata_018": [
+        33.96881074646913
+      ],
+      "components_v5_current_pems_metadata_019": [
+        35.341435367913924
+      ],
+      "components_v5_current_pems_metadata_020": [
+        33.93769851704024
+      ],
+      "components_v5_current_pems_metadata_022": [
+        34.92630522856537
+      ],
+      "components_v5_current_pems_metadata_023": [
+        35.20550574576728
+      ],
+      "components_v5_current_pems_metadata_024": [
+        33.48633491444206
+      ],
+      "components_v5_current_pems_metadata_025": [
+        34.97319392741039
+      ],
+      "Ridge_l12_none": [
+        35.34577044036103
+      ],
+      "Ridge_l12_daily": [
+        35.685979871728534
+      ],
+      "Ridge_l36_none": [
+        35.27676191875479
+      ],
+      "Ridge_l36_daily": [
+        35.71861431072201
+      ],
+      "Persistence": [
+        37.70993256913474
+      ],
+      "DayWeekAverage": [
+        58.634147702483695
+      ]
+    },
+    "utd19:melbourne:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        42.20729062805634
+      ],
+      "components_v5_current_pems_metadata_004": [
+        42.902107160105636
+      ],
+      "components_v5_current_pems_metadata_005": [
+        41.05542337037131
+      ],
+      "components_v5_current_pems_metadata_006": [
+        41.29504435720548
+      ],
+      "components_v5_current_pems_metadata_008": [
+        41.19897779563079
+      ],
+      "components_v5_current_pems_metadata_009": [
+        40.558212196913075
+      ],
+      "components_v5_current_pems_metadata_011": [
+        42.423585859401925
+      ],
+      "components_v5_current_pems_metadata_013": [
+        41.03168572616673
+      ],
+      "components_v5_current_pems_metadata_014": [
+        42.915217392761285
+      ],
+      "components_v5_current_pems_metadata_015": [
+        41.772072931032014
+      ],
+      "components_v5_current_pems_metadata_018": [
+        40.75476929082238
+      ],
+      "components_v5_current_pems_metadata_019": [
+        41.471725538693505
+      ],
+      "components_v5_current_pems_metadata_020": [
+        41.09143621281488
+      ],
+      "components_v5_current_pems_metadata_022": [
+        41.3567552906792
+      ],
+      "components_v5_current_pems_metadata_023": [
+        41.4295899164107
+      ],
+      "components_v5_current_pems_metadata_024": [
+        40.07063819422056
+      ],
+      "components_v5_current_pems_metadata_025": [
+        41.63080098522326
+      ],
+      "Ridge_l12_none": [
+        41.8697929600397
+      ],
+      "Ridge_l12_daily": [
+        42.03724401417819
+      ],
+      "Ridge_l36_none": [
+        41.752905353423
+      ],
+      "Ridge_l36_daily": [
+        41.943355339778
+      ],
+      "Persistence": [
+        44.34615656813657
+      ],
+      "DayWeekAverage": [
+        59.047761930488896
+      ]
+    },
+    "utd19v53:hamburg:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        59.36100199930007
+      ],
+      "components_v5_current_pems_metadata_004": [
+        59.16386911890097
+      ],
+      "components_v5_current_pems_metadata_005": [
+        58.62357462896243
+      ],
+      "components_v5_current_pems_metadata_006": [
+        59.246552851549694
+      ],
+      "components_v5_current_pems_metadata_008": [
+        60.10416201886507
+      ],
+      "components_v5_current_pems_metadata_009": [
+        59.15951779863533
+      ],
+      "components_v5_current_pems_metadata_011": [
+        59.25558008904204
+      ],
+      "components_v5_current_pems_metadata_013": [
+        59.15631114262995
+      ],
+      "components_v5_current_pems_metadata_014": [
+        59.791174728452944
+      ],
+      "components_v5_current_pems_metadata_015": [
+        59.58885162845432
+      ],
+      "components_v5_current_pems_metadata_018": [
+        59.24436497597731
+      ],
+      "components_v5_current_pems_metadata_019": [
+        60.392590211651395
+      ],
+      "components_v5_current_pems_metadata_020": [
+        58.88711607919055
+      ],
+      "components_v5_current_pems_metadata_022": [
+        60.40338926725733
+      ],
+      "components_v5_current_pems_metadata_023": [
+        60.26893731335873
+      ],
+      "components_v5_current_pems_metadata_024": [
+        59.28042258828861
+      ],
+      "components_v5_current_pems_metadata_025": [
+        60.36613833210939
+      ],
+      "Ridge_l12_none": [
+        60.61663555181204
+      ],
+      "Ridge_l12_daily": [
+        60.34373875119662
+      ],
+      "Ridge_l36_none": [
+        60.427512084879446
+      ],
+      "Ridge_l36_daily": [
+        60.25453086548354
+      ],
+      "Persistence": [
+        76.91758368317238
+      ],
+      "DayWeekAverage": [
+        78.5337905104677
+      ]
+    },
+    "utd19v53:hamburg:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        61.794043803340536
+      ],
+      "components_v5_current_pems_metadata_004": [
+        61.719766894526344
+      ],
+      "components_v5_current_pems_metadata_005": [
+        61.02864041391638
+      ],
+      "components_v5_current_pems_metadata_006": [
+        61.99175977918324
+      ],
+      "components_v5_current_pems_metadata_008": [
+        62.65491193532971
+      ],
+      "components_v5_current_pems_metadata_009": [
+        61.53086389380394
+      ],
+      "components_v5_current_pems_metadata_011": [
+        61.72451615367426
+      ],
+      "components_v5_current_pems_metadata_013": [
+        61.68499575642048
+      ],
+      "components_v5_current_pems_metadata_014": [
+        62.41328765595959
+      ],
+      "components_v5_current_pems_metadata_015": [
+        62.27802486129996
+      ],
+      "components_v5_current_pems_metadata_018": [
+        61.97790818786091
+      ],
+      "components_v5_current_pems_metadata_019": [
+        62.83637579386147
+      ],
+      "components_v5_current_pems_metadata_020": [
+        61.69523101185301
+      ],
+      "components_v5_current_pems_metadata_022": [
+        62.83589493242797
+      ],
+      "components_v5_current_pems_metadata_023": [
+        62.733365517422705
+      ],
+      "components_v5_current_pems_metadata_024": [
+        61.8503416259337
+      ],
+      "components_v5_current_pems_metadata_025": [
+        62.76642015026921
+      ],
+      "Ridge_l12_none": [
+        62.971760017497076
+      ],
+      "Ridge_l12_daily": [
+        62.7670043471679
+      ],
+      "Ridge_l36_none": [
+        62.86575151051989
+      ],
+      "Ridge_l36_daily": [
+        62.712218961786704
+      ],
+      "Persistence": [
+        84.36345155870195
+      ],
+      "DayWeekAverage": [
+        78.53437581897055
+      ]
+    },
+    "utd19v53:luzern:flow:15min": {
+      "components_v5_current_pems_metadata_003": [
+        66.34020374362508
+      ],
+      "components_v5_current_pems_metadata_004": [
+        65.92589618294662
+      ],
+      "components_v5_current_pems_metadata_005": [
+        65.23059097934218
+      ],
+      "components_v5_current_pems_metadata_006": [
+        66.17525104415877
+      ],
+      "components_v5_current_pems_metadata_008": [
+        67.21509512631637
+      ],
+      "components_v5_current_pems_metadata_009": [
+        65.31667763224391
+      ],
+      "components_v5_current_pems_metadata_011": [
+        65.29732121828526
+      ],
+      "components_v5_current_pems_metadata_013": [
+        66.26564145637786
+      ],
+      "components_v5_current_pems_metadata_014": [
+        67.16270719953849
+      ],
+      "components_v5_current_pems_metadata_015": [
+        66.83534828501926
+      ],
+      "components_v5_current_pems_metadata_018": [
+        66.45058481400316
+      ],
+      "components_v5_current_pems_metadata_019": [
+        67.46260710627506
+      ],
+      "components_v5_current_pems_metadata_020": [
+        65.69596339320702
+      ],
+      "components_v5_current_pems_metadata_022": [
+        67.49106259970561
+      ],
+      "components_v5_current_pems_metadata_023": [
+        67.51150991365915
+      ],
+      "components_v5_current_pems_metadata_024": [
+        65.91678304706251
+      ],
+      "components_v5_current_pems_metadata_025": [
+        67.45895787077262
+      ],
+      "Ridge_l12_none": [
+        68.08679807938225
+      ],
+      "Ridge_l12_daily": [
+        67.7404150076647
+      ],
+      "Ridge_l36_none": [
+        67.82284825411514
+      ],
+      "Ridge_l36_daily": [
+        67.61672302301494
+      ],
+      "Persistence": [
+        87.71516300142667
+      ],
+      "DayWeekAverage": [
+        83.88204433311888
+      ]
+    },
+    "utd19v53:luzern:flow:60min": {
+      "components_v5_current_pems_metadata_003": [
+        68.09171098986927
+      ],
+      "components_v5_current_pems_metadata_004": [
+        67.8671749467633
+      ],
+      "components_v5_current_pems_metadata_005": [
+        66.74983441349059
+      ],
+      "components_v5_current_pems_metadata_006": [
+        68.34752546327988
+      ],
+      "components_v5_current_pems_metadata_008": [
+        68.99666263017058
+      ],
+      "components_v5_current_pems_metadata_009": [
+        66.85311233893674
+      ],
+      "components_v5_current_pems_metadata_011": [
+        67.06409869025146
+      ],
+      "components_v5_current_pems_metadata_013": [
+        68.66127816831127
+      ],
+      "components_v5_current_pems_metadata_014": [
+        68.63861328747
+      ],
+      "components_v5_current_pems_metadata_015": [
+        68.61135581105734
+      ],
+      "components_v5_current_pems_metadata_018": [
+        68.70323960056236
+      ],
+      "components_v5_current_pems_metadata_019": [
+        68.96546848071857
+      ],
+      "components_v5_current_pems_metadata_020": [
+        67.7582193186157
+      ],
+      "components_v5_current_pems_metadata_022": [
+        69.31105594307869
+      ],
+      "components_v5_current_pems_metadata_023": [
+        69.30420918931931
+      ],
+      "components_v5_current_pems_metadata_024": [
+        68.01759010677623
+      ],
+      "components_v5_current_pems_metadata_025": [
+        69.1985872968919
+      ],
+      "Ridge_l12_none": [
+        70.00774529064329
+      ],
+      "Ridge_l12_daily": [
+        69.79522877395391
+      ],
+      "Ridge_l36_none": [
+        69.8274290540254
+      ],
+      "Ridge_l36_daily": [
+        69.70176941873629
+      ],
+      "Persistence": [
+        98.53780497027658
+      ],
+      "DayWeekAverage": [
+        83.87749505121674
+      ]
+    },
+    "D01:flow:15": {
+      "DayWeekAverage": [
+        5.295416778947987,
+        5.295416778947987,
+        5.295416778947987
+      ],
+      "Persistence": [
+        5.378918530494925,
+        5.378918530494925,
+        5.378918530494925
+      ],
+      "Ridge_l12_daily": [
+        4.4935366855484205,
+        4.4935366855484205,
+        4.4935366855484205
+      ],
+      "Ridge_l12_none": [
+        4.680916342158602,
+        4.680916342158602,
+        4.680916342158602
+      ],
+      "Ridge_l36_daily": [
+        4.5106478295714405,
+        4.5106478295714405,
+        4.5106478295714405
+      ],
+      "Ridge_l36_none": [
+        4.570388122385768,
+        4.570388122385768,
+        4.570388122385768
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.297430522959314,
+        4.308452430408001,
+        4.305982298738482
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.301156686392659,
+        4.288570760290716,
+        4.281558048409652
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.191488716821536,
+        4.188293422888168,
+        4.201948648095937
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.282853249131948,
+        4.284973640630785,
+        4.289445140916938
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.455394875602074,
+        4.447899351221767,
+        4.447962967854985
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.193169075017152,
+        4.190960169684594,
+        4.1891839976173095
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.306775981405819,
+        4.311024712251787,
+        4.335094943835219
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.466260092605915,
+        4.486193903371447,
+        4.458121644465242
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.448381577060582,
+        4.434127568286735,
+        4.4357509443814775
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.6025362730075425,
+        4.6291136365401915,
+        4.595910411738031
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.434712858649366,
+        4.442385036963226,
+        4.427988990695849
+      ],
+      "components_v5_current_pems_metadata_019": [
+        4.594516299258854,
+        4.593842424753366,
+        4.589999864623545
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.277942813356066,
+        4.289088898236573,
+        4.314713205503954
+      ],
+      "components_v5_current_pems_metadata_022": [
+        4.559630749155272,
+        4.562491062909393,
+        4.5576267842984075
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.560684105920897,
+        4.559311348399435,
+        4.555823145883183
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.339214228237595,
+        4.34263942446642,
+        4.3135453991864905
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.54721241346865,
+        4.5432618623206755,
+        4.530156914265227
+      ]
+    },
+    "D01:flow:60": {
+      "DayWeekAverage": [
+        5.293566857530297,
+        5.293566857530297,
+        5.293566857530297
+      ],
+      "Persistence": [
+        6.4855619175929045,
+        6.4855619175929045,
+        6.4855619175929045
+      ],
+      "Ridge_l12_daily": [
+        4.723870809183467,
+        4.723870809183467,
+        4.723870809183467
+      ],
+      "Ridge_l12_none": [
+        4.849731314488798,
+        4.849731314488798,
+        4.849731314488798
+      ],
+      "Ridge_l36_daily": [
+        4.741100462929799,
+        4.741100462929799,
+        4.741100462929799
+      ],
+      "Ridge_l36_none": [
+        4.757915464801038,
+        4.757915464801038,
+        4.757915464801038
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.487675049069769,
+        4.496186808898516,
+        4.489497945418423
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.428005180626626,
+        4.441759564228421,
+        4.423324696707805
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.272165159236895,
+        4.281533130088587,
+        4.24214486274382
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.497460552205212,
+        4.5215887113493,
+        4.511627723571085
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.645608569461957,
+        4.657090851849153,
+        4.635915029221677
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.358855729612644,
+        4.336305963869234,
+        4.334239108599911
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.4436144451125585,
+        4.423700211394523,
+        4.434074597363551
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.638719280216882,
+        4.677125663278028,
+        4.6586294995842525
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.570192931662356,
+        4.583244424379435,
+        4.568037827717265
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.653189894915943,
+        4.639890149961485,
+        4.646313403818159
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.629102849976147,
+        4.633883694449304,
+        4.624261813865287
+      ],
+      "components_v5_current_pems_metadata_019": [
+        4.71055358256685,
+        4.727565023009146,
+        4.724249819979507
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.476330825631821,
+        4.469086880271953,
+        4.46322403970772
+      ],
+      "components_v5_current_pems_metadata_022": [
+        4.763974638760348,
+        4.769605101246266,
+        4.75722552393925
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.74640868447177,
+        4.756798012921567,
+        4.740535290383709
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.537343864832278,
+        4.565391505264723,
+        4.529730832964526
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.731451199711924,
+        4.73277055231889,
+        4.718460541255267
+      ]
+    },
+    "D02:flow:15": {
+      "DayWeekAverage": [
+        5.348573446109773,
+        5.348573446109773,
+        5.348573446109773
+      ],
+      "Persistence": [
+        5.33969728242174,
+        5.33969728242174,
+        5.33969728242174
+      ],
+      "Ridge_l12_daily": [
+        4.461030109347061,
+        4.461030109347061,
+        4.461030109347061
+      ],
+      "Ridge_l12_none": [
+        4.573520704883565,
+        4.573520704883565,
+        4.573520704883565
+      ],
+      "Ridge_l36_daily": [
+        4.466245930189991,
+        4.466245930189991,
+        4.466245930189991
+      ],
+      "Ridge_l36_none": [
+        4.513233880882608,
+        4.513233880882608,
+        4.513233880882608
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.22611569971247,
+        4.219996131786663,
+        4.214934762948059
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.14721509690138,
+        4.1396985063701655,
+        4.163585886983595
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.062943232156302,
+        4.058673125061678,
+        4.122707692723043
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.218682643682724,
+        4.19512484526915,
+        4.23638516642725
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.38878904771601,
+        4.386698924513061,
+        4.379708691671397
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.088975968923062,
+        4.08884114392907,
+        4.086980915322789
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.170116267431735,
+        4.158464539518762,
+        4.182848553751407
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.2799075514266525,
+        4.312835609958491,
+        4.3622046387083655
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.385203756142812,
+        4.382373318113517,
+        4.377837575112541
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.492705659896563,
+        4.476382332574798,
+        4.4729907129885556
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.314295984959099,
+        4.306354681089442,
+        4.332356323363969
+      ],
+      "components_v5_current_pems_metadata_019": [
+        4.479227202703965,
+        4.496213079240661,
+        4.486678804061267
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.185347836670051,
+        4.1706842305133,
+        4.195370533671494
+      ],
+      "components_v5_current_pems_metadata_022": [
+        4.456839632284627,
+        4.482389463870685,
+        4.467096532395684
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.472596097396425,
+        4.459370235921701,
+        4.481505527168544
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.228313175101839,
+        4.2519058221751544,
+        4.2357421468672
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.436255659209929,
+        4.451936715665654,
+        4.449666925628523
+      ]
+    },
+    "D02:flow:60": {
+      "DayWeekAverage": [
+        5.34831122082508,
+        5.34831122082508,
+        5.34831122082508
+      ],
+      "Persistence": [
+        6.575647475312093,
+        6.575647475312093,
+        6.575647475312093
+      ],
+      "Ridge_l12_daily": [
+        4.716197141008466,
+        4.716197141008466,
+        4.716197141008466
+      ],
+      "Ridge_l12_none": [
+        4.767580592458908,
+        4.767580592458908,
+        4.767580592458908
+      ],
+      "Ridge_l36_daily": [
+        4.724959833434761,
+        4.724959833434761,
+        4.724959833434761
+      ],
+      "Ridge_l36_none": [
+        4.75080966095644,
+        4.75080966095644,
+        4.75080966095644
+      ],
+      "components_v5_current_pems_metadata_003": [
+        4.476071605532263,
+        4.483179612281529,
+        4.460358822093465
+      ],
+      "components_v5_current_pems_metadata_004": [
+        4.318752457332641,
+        4.385231850865959,
+        4.3555772198766185
+      ],
+      "components_v5_current_pems_metadata_005": [
+        4.176808912721608,
+        4.229709252824124,
+        4.158430499367376
+      ],
+      "components_v5_current_pems_metadata_006": [
+        4.462305841747419,
+        4.449694977405682,
+        4.478996953770928
+      ],
+      "components_v5_current_pems_metadata_008": [
+        4.60155320127454,
+        4.607660144082845,
+        4.597340649431498
+      ],
+      "components_v5_current_pems_metadata_009": [
+        4.289296721137798,
+        4.295859189455974,
+        4.2835231465564725
+      ],
+      "components_v5_current_pems_metadata_011": [
+        4.31480115785651,
+        4.309926513801744,
+        4.337379751285778
+      ],
+      "components_v5_current_pems_metadata_013": [
+        4.5578434698345385,
+        4.541261624418275,
+        4.577760889170621
+      ],
+      "components_v5_current_pems_metadata_014": [
+        4.587259892864524,
+        4.593700982092639,
+        4.588512880665421
+      ],
+      "components_v5_current_pems_metadata_015": [
+        4.554657354971477,
+        4.582230191148043,
+        4.561432953880778
+      ],
+      "components_v5_current_pems_metadata_018": [
+        4.563916053004391,
+        4.565810811157545,
+        4.5655251959389425
+      ],
+      "components_v5_current_pems_metadata_019": [
+        4.663102650539733,
+        4.677493123837665,
+        4.651920774427372
+      ],
+      "components_v5_current_pems_metadata_020": [
+        4.410582470319899,
+        4.399703186825077,
+        4.413844521896705
+      ],
+      "components_v5_current_pems_metadata_022": [
+        4.675070493693633,
+        4.697179814774451,
+        4.684266870910658
+      ],
+      "components_v5_current_pems_metadata_023": [
+        4.6686349684950565,
+        4.669158193648851,
+        4.674768097818986
+      ],
+      "components_v5_current_pems_metadata_024": [
+        4.456882389124803,
+        4.488158444274683,
+        4.479242939200123
+      ],
+      "components_v5_current_pems_metadata_025": [
+        4.639501416746583,
+        4.6740581427813215,
+        4.642659276159895
+      ]
+    }
+  },
+  "metadata": {
+    "utd19:bremen:flow:15min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 5
+    },
+    "utd19:bremen:flow:60min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 20
+    },
+    "utd19:essen:flow:15min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 3
+    },
+    "utd19:essen:flow:60min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 12
+    },
+    "utd19:essen:speed:15min": {
+      "variable": "speed",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 3
+    },
+    "utd19:essen:speed:60min": {
+      "variable": "speed",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 12
+    },
+    "utd19:melbourne:flow:15min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 1
+    },
+    "utd19:melbourne:flow:60min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 4
+    },
+    "utd19:torino:flow:15min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 3
+    },
+    "utd19:torino:flow:60min": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 12
+    },
+    "utd19:torino:speed:15min": {
+      "variable": "speed",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 3
+    },
+    "utd19:torino:speed:60min": {
+      "variable": "speed",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 12
+    },
+    "utd19v53:hamburg:flow:15min": {
+      "variable": "flow",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 5
+    },
+    "utd19v53:hamburg:flow:60min": {
+      "variable": "flow",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 20
+    },
+    "utd19v53:luzern:flow:15min": {
+      "variable": "flow",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 5
+    },
+    "utd19v53:luzern:flow:60min": {
+      "variable": "flow",
+      "measurement_basis": "unspecified",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 20
+    },
+    "D01:flow:15": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 1
+    },
+    "D01:flow:60": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 4
+    },
+    "D02:flow:15": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 1
+    },
+    "D02:flow:60": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 4
+    },
+    "T01:flow:15": {
+      "variable": "flow",
+      "measurement_basis": "per_measurement_point",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 1
+    },
+    "T01:flow:60": {
+      "variable": "flow",
+      "measurement_basis": "per_measurement_point",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 4
+    },
+    "T02:flow:15": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 1
+    },
+    "T02:flow:60": {
+      "variable": "flow",
+      "measurement_basis": "per_lane",
+      "missingness_category": "primary_unknown_retained",
+      "native_horizon_steps": 4
+    },
+    "T03:flow:15": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 1
+    },
+    "T03:flow:60": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 4
+    },
+    "T04:flow:15": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 1
+    },
+    "T04:flow:60": {
+      "variable": "flow",
+      "measurement_basis": "per_detector",
+      "missingness_category": "source_quality_filtered",
+      "native_horizon_steps": 4
+    }
+  },
+  "schema": {
+    "generic": [
+      "nodes",
+      "history_points",
+      "observed_fraction",
+      "native_mean_node_mean",
+      "native_mean_node_std",
+      "daily_lag_corr_median",
+      "weekly_lag_corr_median",
+      "daily_profile_explained_fraction_median",
+      "first_last_week_mean_shift_over_std_median",
+      "adjacent_step_abs_difference_over_std_median",
+      "valid_history_nodes",
+      "zero_valid_fraction",
+      "hourly_step_abs_difference_over_std_median",
+      "daily_lag_valid_pairs",
+      "weekly_lag_valid_pairs",
+      "daily_lag_valid_nodes",
+      "weekly_lag_valid_nodes",
+      "nonoverlapping_week_shift_valid_nodes",
+      "numeric_observed_fraction",
+      "row_present_fraction",
+      "frequency_seconds",
+      "forecast_minutes",
+      "training_target_days"
+    ],
+    "traffic": [
+      "spatial_abs_corr_mean",
+      "spatial_abs_corr_p90",
+      "spatial_after_daily_profile_abs_corr_mean",
+      "spatial_sampled_nodes",
+      "spatial_valid_pairs",
+      "annotation_known_fraction_on_present",
+      "known_bad_fraction_on_present",
+      "unknown_annotation_fraction_on_present",
+      "strict_clean_fraction_on_present",
+      "primary_unknown_annotation_fraction",
+      "provided_graph_available"
+    ],
+    "full": [
+      "nodes",
+      "history_points",
+      "observed_fraction",
+      "native_mean_node_mean",
+      "native_mean_node_std",
+      "daily_lag_corr_median",
+      "weekly_lag_corr_median",
+      "daily_profile_explained_fraction_median",
+      "first_last_week_mean_shift_over_std_median",
+      "adjacent_step_abs_difference_over_std_median",
+      "valid_history_nodes",
+      "zero_valid_fraction",
+      "hourly_step_abs_difference_over_std_median",
+      "daily_lag_valid_pairs",
+      "weekly_lag_valid_pairs",
+      "daily_lag_valid_nodes",
+      "weekly_lag_valid_nodes",
+      "nonoverlapping_week_shift_valid_nodes",
+      "numeric_observed_fraction",
+      "row_present_fraction",
+      "frequency_seconds",
+      "forecast_minutes",
+      "training_target_days",
+      "spatial_abs_corr_mean",
+      "spatial_abs_corr_p90",
+      "spatial_after_daily_profile_abs_corr_mean",
+      "spatial_sampled_nodes",
+      "spatial_valid_pairs",
+      "annotation_known_fraction_on_present",
+      "known_bad_fraction_on_present",
+      "unknown_annotation_fraction_on_present",
+      "strict_clean_fraction_on_present",
+      "primary_unknown_annotation_fraction",
+      "provided_graph_available"
+    ],
+    "metadata": [
+      "variable",
+      "measurement_basis",
+      "missingness_category",
+      "native_horizon_steps"
+    ],
+    "no_H_deleted": [
+      "forecast_minutes",
+      "native_horizon_steps"
+    ],
+    "physical_block": [
+      "frequency_seconds",
+      "forecast_minutes",
+      "native_horizon_steps",
+      "training_target_days"
+    ],
+    "excluded": [
+      "city",
+      "provider",
+      "test_quality",
+      "early_mae",
+      "corpus_mae",
+      "cost",
+      "forecast_seed"
+    ],
+    "missing_flags": "generated only from included fields;remove together with parent",
+    "descriptor_schema": "fixed public library vocabulary;not learned from performance",
+    "no_other_horizon_derived_features": true
+  }
+}

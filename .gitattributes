@@ -1,1 +1,2 @@
-* text=auto eol=lf
+# Preserve reviewed code and aggregate-export bytes across platforms.
+* -text

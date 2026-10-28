@@ -1,0 +1,3110 @@
+[
+  {
+    "pool": "full23",
+    "method": "S09",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S09",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S09",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S08_ID",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S08_ID",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S08_ID",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_description",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_description",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_description",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_ID",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_ID",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_generic_ID",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_H",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_H",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_H",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_u",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_u",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_u",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_gate",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_gate",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.8030320779020115,
+        "hamburg": 0.0,
+        "luzern": -1.7990795932415815,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.004782618464738875,
+      "worst_city_loss_pct": 1.8030320779020115,
+      "switch_count": 6,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.255709778941011,
+        "hamburg": 0.0,
+        "luzern": -1.7990795932415815,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07319790583486394,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 8,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "A_no_gate",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.8030320779020115,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.12049683235064512,
+      "worst_city_loss_pct": 1.8030320779020115,
+      "switch_count": 8,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.255709778941011,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.05208154498052006,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 10,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S04_direct",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S04_direct",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S04_direct",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S05_matched",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S05_matched",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S05_matched",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S03_oldGB",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S03_oldGB",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S03_oldGB",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S02_nearest",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S02_nearest",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S02_nearest",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S00_fixed",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S00_fixed",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S00_fixed",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S01_majority",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S01_majority",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "full23",
+    "method": "S01_majority",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S09",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S09",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S09",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S08_ID",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S08_ID",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S08_ID",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_description",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_description",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_description",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_ID",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_ID",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -1.1526080364083313,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.14407600455104141,
+      "worst_city_loss_pct": 1.1526080364083313,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -1.1526080364083313,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.14407600455104141,
+      "worst_city_loss_pct": 1.1526080364083313,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_generic_ID",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.0,
+        "bremen": -1.1526080364083313,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.10748555957108807,
+      "worst_city_loss_pct": 1.1526080364083313,
+      "switch_count": 3,
+      "beneficial_switch_count": 1
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.0,
+        "bremen": -1.1526080364083313,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.10748555957108807,
+      "worst_city_loss_pct": 1.1526080364083313,
+      "switch_count": 3,
+      "beneficial_switch_count": 1
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_H",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_H",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": -1.7990795932415815,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3501643999705817,
+      "worst_city_loss_pct": 1.7990795932415815,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_H",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -1.002235606523072,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.125279450815384,
+      "worst_city_loss_pct": 1.002235606523072,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_u",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_u",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_u",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.8465773277235864,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.2308221659654483,
+      "worst_city_loss_pct": 1.8465773277235864,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -0.8231437836414085,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.10289297295517606,
+      "worst_city_loss_pct": 0.8231437836414085,
+      "switch_count": 4,
+      "beneficial_switch_count": 1
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_gate",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.8030320779020115,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.22966756761993656,
+      "worst_city_loss_pct": 1.8030320779020115,
+      "switch_count": 4,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": -1.255709778941011,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.2980828549900616,
+      "worst_city_loss_pct": 1.255709778941011,
+      "switch_count": 6,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_gate",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "A_no_gate",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 3.640372618861504,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.455046577357688,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S04_direct",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S04_direct",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S04_direct",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S05_matched",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S05_matched",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.04086114113468602,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 1,
+      "beneficial_switch_count": 1
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.04086114113468602,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 1,
+      "beneficial_switch_count": 1
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S05_matched",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.03659044497995335,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 1,
+      "beneficial_switch_count": 1
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.03659044497995335,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 1,
+      "beneficial_switch_count": 1
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S03_oldGB",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -0.9194352956183094,
+        "luzern": -1.8888172966442296,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3510315740328174,
+      "worst_city_loss_pct": 1.8888172966442296,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -0.9194352956183094,
+        "luzern": -1.8888172966442296,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3510315740328174,
+      "worst_city_loss_pct": 1.8888172966442296,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S03_oldGB",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -0.9194352956183094,
+        "luzern": -1.8888172966442296,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3510315740328174,
+      "worst_city_loss_pct": 1.8888172966442296,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -0.9194352956183094,
+        "luzern": -1.8888172966442296,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3510315740328174,
+      "worst_city_loss_pct": 1.8888172966442296,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S03_oldGB",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -0.9194352956183094,
+        "luzern": -1.8888172966442296,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3510315740328174,
+      "worst_city_loss_pct": 1.8888172966442296,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": -0.9194352956183094,
+        "luzern": -1.8888172966442296,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.3510315740328174,
+      "worst_city_loss_pct": 1.8888172966442296,
+      "switch_count": 4,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S07_FFORMS",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.2927235598396268,
+        "Greater Bendigo": 0.3268891290774882,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.07745158611463937,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 2,
+      "beneficial_switch_count": 2
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S02_nearest",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S02_nearest",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S02_nearest",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": -0.7203887331082792,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": -0.0900485916385349,
+      "worst_city_loss_pct": 0.7203887331082792,
+      "switch_count": 2,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S00_fixed",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S00_fixed",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S00_fixed",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S01_majority",
+    "meta_seed": 20261010,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S01_majority",
+    "meta_seed": 20261011,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  },
+  {
+    "pool": "neural17",
+    "method": "S01_majority",
+    "meta_seed": 20261012,
+    "flow_only": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    },
+    "all_variables": {
+      "city_gain_pct": {
+        "Ballarat": 0.0,
+        "Greater Bendigo": 0.0,
+        "bremen": 0.0,
+        "essen": 0.0,
+        "hamburg": 0.0,
+        "luzern": 0.0,
+        "melbourne": 0.0,
+        "torino": 0.0
+      },
+      "macro_gain_pct": 0.0,
+      "worst_city_loss_pct": 0.0,
+      "switch_count": 0,
+      "beneficial_switch_count": 0
+    }
+  }
+]
